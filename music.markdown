@@ -4,4 +4,12 @@ title: Music
 permalink: /music/
 ---
 
-Hello world!
+- Performance
+    - PaoPianoCovers
+    - 100 Day Song Challenge
+    - Mashups
+- Composition
+    - Serendipity
+    - Band Mashup
+    - Love The World
+    - Justice
