@@ -10,7 +10,10 @@ class Other extends React.Component {
 
     render() {
         return (
-            <div>This is the other</div>
+            <div>
+                <h1>This page is under construction! ⚠️</h1>
+                <h2>Please check back later for more updates.</h2>
+            </div>
         );
     }
 }

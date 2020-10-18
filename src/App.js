@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Switch, Route} from 'react-router-dom'
 
@@ -9,6 +8,7 @@ import Coding from './components/Coding';
 import Music from './components/Music';
 import Other from './components/Other';
 import Navbar from './components/Navbar';
+import BottomBar from './components/BottomBar';
 
 function App() {
   return (

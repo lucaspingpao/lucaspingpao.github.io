@@ -10,7 +10,10 @@ class About extends React.Component {
 
     render() {
         return (
-            <div>This is the about</div>
+            <div>
+                <h1>This page is under construction! ⚠️</h1>
+                <h2>Please check back later for more updates.</h2>
+            </div>
         );
     }
 }

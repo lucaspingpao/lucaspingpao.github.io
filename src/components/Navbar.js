@@ -13,10 +13,8 @@ class Navbar extends React.Component {
             <AppBar color="white" position="static">
               <Toolbar>
                 <Button color="secondary" href="/">Home</Button>
-                <Button color="secondary" href="/about">About</Button>
                 <Button color="secondary" href="/coding">Coding</Button>
                 <Button color="secondary" href="/music">Music</Button>
-                <Button color="secondary" href="/other">Other</Button>
               </Toolbar>
             </AppBar>
           );

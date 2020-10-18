@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.logo {
+    font-size: 200px;
+    text-decoration:none
+}
+
+.caption {
+    font: caption;
+    font-size: 20px;
+}
