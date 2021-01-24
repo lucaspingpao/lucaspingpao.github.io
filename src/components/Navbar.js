@@ -11,14 +11,10 @@ class Navbar extends React.Component {
 
     render() {
         return (
-          <div class="navbar">
-            <AppBar color="white" position="static">
-              <Toolbar >
-                <Button color="secondary"><Link to="/" style={{ textDecoration: 'none' }}>Home</Link></Button>
-                <Button color="secondary"><Link to="/coding" style={{ textDecoration: 'none' }}>Coding</Link></Button>
-                <Button color="secondary"><Link to="/music" style={{ textDecoration: 'none' }}>Music</Link></Button>
-              </Toolbar>
-            </AppBar>
+          <div className="navbar">
+                <Link className="button" to="/">HOME</Link>
+                <Link className="button" to="/coding">CODING</Link>
+                <Link className="button" to="/music">MUSIC</Link>
           </div>
           );
     }

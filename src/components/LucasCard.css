@@ -1,0 +1,28 @@
+.card {
+    border: 2px solid black;
+    width: 24vw;
+    height: 24vw;
+    box-shadow: 5px 5px 10px #9E9E9E;
+    padding: 20px 20px 10px 20px;
+    font-size: 1.7vw;
+    border-radius: 10%;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 2vw #9E9E9E;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.card:active {
+    box-shadow: 5px 5px 1vw #9E9E9E;
+    border: 3px solid black;
+}
+
+img {
+    width: 16vw;
+}
+
+.homeCard {
+    font-size: 3vw;
+}

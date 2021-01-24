@@ -11,12 +11,7 @@ h1 {
     font-size: 72px;
 }
 
-.logo {
-    font-size: 200px;
-    text-decoration: none;
-}
-
-.caption {
-    font: caption;
-    font-size: 20px;
+.cards {
+    display: flex;
+    justify-content: space-evenly;
 }

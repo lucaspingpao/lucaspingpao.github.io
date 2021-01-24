@@ -2,11 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-p {
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
 h1 {
     font-size: 72px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 5vw;
+    grid-column-gap: 5vw;
 }

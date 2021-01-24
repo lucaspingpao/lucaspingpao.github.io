@@ -1,0 +1,51 @@
+.text {
+    color: gray;
+    grid-area: text;
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+        "text text"
+        "github youtube";
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    padding: 2.5% 25% 2.5% 25%;
+}
+
+.github {
+    grid-area: github;
+    border: 1px solid black;
+    padding: 6px 0px 4px 2px;
+    border-radius: 5%;
+    box-shadow: 1.5px 1.5px 2px #9E9E9E;
+}
+
+.github:hover {
+    background-color: lightgray;
+    border: 1.5px solid black;
+}
+
+.github:active {
+    background-color: darkgray;
+    border: 1.5px solid black;
+}
+
+.youtube {
+    grid-area: youtube;
+    border: 1px solid black;
+    padding: 8px 2px 2px 0px;
+    border-radius: 5%;
+    box-shadow: 1.5px 1.5px 2px #9E9E9E;
+}
+
+.youtube:hover {
+    background-color: pink;
+    border: 1.5px solid black;
+}
+
+.youtube:active {
+    background-color: lightpink;
+    border: 1.5px solid black;
+}
