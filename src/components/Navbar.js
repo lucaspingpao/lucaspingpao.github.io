@@ -1,7 +1,7 @@
 import React from 'react';
 import {AppBar, Button, Toolbar} from '@material-ui/core';
 import {Link} from 'react-router-dom';
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 class Navbar extends React.Component {
     constructor(props) {
