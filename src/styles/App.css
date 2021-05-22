@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+}
+
+h3 {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+.cards {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 30% 30% 30%;
+  grid-row-gap: 4vw;
+}
+
+.cards2 {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 30% 30%;
+  grid-row-gap: 4vw;
+}
+
+.frame {
+  width: 90%;
+  height: 750px;
+}
+
+@media (max-width: 660px) {
+  h1 {font-size: 45px;}
+  h2 {font-size: 16px;}
+  h3 {font-size: 16px;}
+  .text-top {font-size: 11px;}
+  iframe {width: 90%;}
+
+  .cards {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 35% 35% 35%;
+    grid-row-gap: 3vw;
+  }
+
+  h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .cards2 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 35% 35%;
+    grid-row-gap: 4vw;
+  }
+}
