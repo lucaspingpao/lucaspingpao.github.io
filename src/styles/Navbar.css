@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    box-shadow: 0px 2.5px 10px #9E9E9E;
+    padding: 15px 15px 10px 15px;
+    font-family: "system-ui";
+    text-transform: uppercase;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 15px 10px 10px;
+    color: #2196f3;
+}
+
+.button:hover {
+    color: #4dabf5;
+}
+
+.button:active {
+    color: #1769aa;
+}

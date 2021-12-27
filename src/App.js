@@ -1,24 +1,27 @@
 import React from 'react';
-import './App.css';
-import {Switch, Route, BrowserRouter} from 'react-router-dom'
+import './styles/App.css';
+import {Switch, Route, HashRouter} from 'react-router-dom'
 
-import Homepage from './components/Homepage';
-import About from './components/About';
-
-
-import Coding from './components/Coding';
-import CSsquared from './components/Coding/CSsquared';
-import RShinyApps from './components/Coding/RShinyApps';
-import WaveLearning from './components/Coding/WaveLearning';
-import VotrCrowd from './components/Coding/VotrCrowd';
-import PolySymph from './components/Coding/PolySymph';
-import DataMatch from './components/Coding/DataMatch';
+import Homepage from './pages/Homepage';
+import About from './pages/About';
 
 
-import Music from './components/Music';
-import HundredSongs from './components/Music/HundredSongs';
-import ElectronicComposition from './components/Music/Composition';
-import Other from './components/Other';
+import Coding from './pages/Coding';
+import CSsquared from './pages/Coding/CSsquared';
+import RShinyApps from './pages/Coding/RShinyApps';
+import WaveLearning from './pages/Coding/WaveLearning';
+import VotrCrowd from './pages/Coding/VotrCrowd';
+import PolySymph from './pages/Coding/PolySymph';
+import DataMatch from './pages/Coding/DataMatch';
+
+
+import Music from './pages/Music';
+import HundredSongs from './pages/Music/HundredSongs';
+import Composition from './pages/Music/Composition';
+import DJing from './pages/Music/DJing';
+import Production from './pages/Music/Production';
+
+import Other from './pages/Other';
 
 
 import Navbar from './components/Navbar';
@@ -32,7 +35,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Navbar/>
         <div className="App">
             <Switch>
@@ -47,12 +50,14 @@ class App extends React.Component {
                   <Route exact path="/coding/datamatch"><DataMatch/></Route>
               <Route exact path="/music"><Music/></Route>
                   <Route exact path="/music/100daysongchallenge"><HundredSongs/></Route>
-                  <Route exact path="/music/composition"><ElectronicComposition/></Route>
+                  <Route exact path="/music/composition"><Composition/></Route>
+                  <Route exact path="/music/djing"><DJing/></Route>
+                  <Route exact path="/music/production"><Production/></Route>
               <Route exact path="/other"><Other/></Route>
             </Switch>
-          <Footer/>
         </div>
-      </BrowserRouter>
+      <Footer/>
+      </HashRouter>
     );
   }
 }

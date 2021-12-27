@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+hr {
+  width: 82%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h1 {
+  font-size: 88px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cards {
+  padding-top: 6%;
+  padding-bottom: 8%;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 30% 30% 30%;
+  grid-row-gap: 4vw;
+}
+
+.cards2 {
+  padding-top: 6%;
+  padding-bottom: 8%;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 30% 30%;
+  grid-row-gap: 4vw;
+}
+
+.frame {
+  width: 90%;
+  height: 750px;
+}
+
+.projectBody {
+  padding-top: 5%;
+  padding-bottom: 6%;
+}
+
+.coverArt {
+  padding: 5% 10% 3% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.musicLogo {
+  padding: 3%;
+  height: 72px;
+  width: auto;
+}
+
+@media (max-width: 660px) {
+  h1 {font-size: 45px;}
+  h2 {font-size: 16px;}
+  h3 {font-size: 16px;}
+  .text-top {font-size: 11px;}
+  iframe {width: 90%;}
+
+  .cards {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 35% 35% 35%;
+    grid-row-gap: 3vw;
+  }
+
+  h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .cards2 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 35% 35%;
+    grid-row-gap: 4vw;
+  }
+}

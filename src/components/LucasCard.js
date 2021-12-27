@@ -1,5 +1,5 @@
 import React from 'react';
-import './LucasCard.css';
+import '../styles/LucasCard.css';
 
 class HomeCard extends React.Component {
     constructor(props) {
@@ -8,20 +8,10 @@ class HomeCard extends React.Component {
     }
 
     render() {
-        const logo = this.props.logo;
-        if(this.props.page === "home") {
-            return (
-                <div className="card homeCard">
-                    <img src={this.props.logo}></img>
-                    <br/>
-                    <div>{this.props.title}</div>
-                </div>
-            );
-        }
         return (
-            <div className="card">
+            <div className={this.props.styleClass}>
                 <img src={this.props.logo}></img>
-                <br/><br/>
+                <br/>
                 <div>{this.props.title}</div>
             </div>
         );
