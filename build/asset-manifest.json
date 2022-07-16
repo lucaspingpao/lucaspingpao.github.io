@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.48d32cae.chunk.css",
-    "main.js": "/static/js/main.f4918b34.chunk.js",
-    "main.js.map": "/static/js/main.f4918b34.chunk.js.map",
+    "main.css": "/static/css/main.986d2416.chunk.css",
+    "main.js": "/static/js/main.d166b3bf.chunk.js",
+    "main.js.map": "/static/js/main.d166b3bf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09c80ff0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09c80ff0.js.map",
-    "static/js/2.fc799885.chunk.js": "/static/js/2.fc799885.chunk.js",
-    "static/js/2.fc799885.chunk.js.map": "/static/js/2.fc799885.chunk.js.map",
+    "static/js/2.d2c1b15e.chunk.js": "/static/js/2.d2c1b15e.chunk.js",
+    "static/js/2.d2c1b15e.chunk.js.map": "/static/js/2.d2c1b15e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ee65de43ae260857541e90f9e7cf0ca.js": "/precache-manifest.8ee65de43ae260857541e90f9e7cf0ca.js",
+    "precache-manifest.ea5089dc91af4cbeb11ea7988616e86e.js": "/precache-manifest.ea5089dc91af4cbeb11ea7988616e86e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.48d32cae.chunk.css.map": "/static/css/main.48d32cae.chunk.css.map",
-    "static/js/2.fc799885.chunk.js.LICENSE.txt": "/static/js/2.fc799885.chunk.js.LICENSE.txt",
+    "static/css/main.986d2416.chunk.css.map": "/static/css/main.986d2416.chunk.css.map",
+    "static/js/2.d2c1b15e.chunk.js.LICENSE.txt": "/static/js/2.d2c1b15e.chunk.js.LICENSE.txt",
     "static/media/Composition.jpg": "/static/media/Composition.a3f9d5eb.jpg",
     "static/media/DJing.jpg": "/static/media/DJing.51a21dcd.jpg",
     "static/media/GitHubLogo.png": "/static/media/GitHubLogo.cefc2023.png",
     "static/media/JustMoveRightAlong.png": "/static/media/JustMoveRightAlong.44f916c5.png",
     "static/media/LeaveYouAlone.png": "/static/media/LeaveYouAlone.290e8a74.png",
     "static/media/OneMoveAtATime.png": "/static/media/OneMoveAtATime.a77203db.png",
+    "static/media/PlayHouse.png": "/static/media/PlayHouse.8ff70957.png",
+    "static/media/PlayHouseScreen.png": "/static/media/PlayHouseScreen.6256e206.png",
     "static/media/Spotify.svg.png": "/static/media/Spotify.svg.21974214.png",
+    "static/media/TapJams.png": "/static/media/TapJams.f2d809ff.png",
     "static/media/WhereDidYouGo.JPG": "/static/media/WhereDidYouGo.8639167a.JPG",
     "static/media/amazonMusic.png": "/static/media/amazonMusic.4b4c46a8.png",
     "static/media/hundred.png": "/static/media/hundred.dc2f3324.png",
@@ -31,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.09c80ff0.js",
-    "static/js/2.fc799885.chunk.js",
-    "static/css/main.48d32cae.chunk.css",
-    "static/js/main.f4918b34.chunk.js"
+    "static/js/2.d2c1b15e.chunk.js",
+    "static/css/main.986d2416.chunk.css",
+    "static/js/main.d166b3bf.chunk.js"
   ]
 }

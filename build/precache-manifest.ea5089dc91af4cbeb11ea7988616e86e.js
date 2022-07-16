@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c412a0f1fdebbd36d2c132455d1ee38",
+    "revision": "dc51c2f67dd3b91b3b88df28180ef06e",
     "url": "/index.html"
   },
   {
-    "revision": "1c505b8fdddf50b2a081",
-    "url": "/static/css/main.48d32cae.chunk.css"
+    "revision": "5563800ec645f6b0a565",
+    "url": "/static/css/main.986d2416.chunk.css"
   },
   {
-    "revision": "f3db28ca2090133e0499",
-    "url": "/static/js/2.fc799885.chunk.js"
+    "revision": "dd67235d109fd2bb9aa4",
+    "url": "/static/js/2.d2c1b15e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.fc799885.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d2c1b15e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c505b8fdddf50b2a081",
-    "url": "/static/js/main.f4918b34.chunk.js"
+    "revision": "5563800ec645f6b0a565",
+    "url": "/static/js/main.d166b3bf.chunk.js"
   },
   {
     "revision": "085495857938a6ab9c24",
@@ -48,8 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/OneMoveAtATime.a77203db.png"
   },
   {
+    "revision": "8ff70957f4d86fc9c6062b5c7beb8ea8",
+    "url": "/static/media/PlayHouse.8ff70957.png"
+  },
+  {
+    "revision": "6256e2065aff7b6ca084c900cb40af32",
+    "url": "/static/media/PlayHouseScreen.6256e206.png"
+  },
+  {
     "revision": "2197421418b2e7580c2e0626ba5470d3",
     "url": "/static/media/Spotify.svg.21974214.png"
+  },
+  {
+    "revision": "f2d809ffee8262e1acc9eb476f28bf8a",
+    "url": "/static/media/TapJams.f2d809ff.png"
   },
   {
     "revision": "8639167af76d0e39b4f358f041af4061",
