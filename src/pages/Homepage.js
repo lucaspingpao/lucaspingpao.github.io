@@ -22,7 +22,7 @@ class Homepage extends React.Component {
     render() {
         const cardInfos = [
             {link:"coding", logo:Computer, title:"Coding"},
-            {link:"music", logo:Music, title:"Music"}
+            {link:"", logo:Music, title:"Music"}
         ]
 
         const cards = cardInfos.map((card) =>

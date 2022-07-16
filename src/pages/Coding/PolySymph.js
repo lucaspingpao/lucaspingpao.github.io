@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/App.css';
+import TapJams from "../../assets/TapJams.png";
 
 class PolySymph extends React.Component {
     constructor(props) {
@@ -29,6 +30,18 @@ class PolySymph extends React.Component {
 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lcgwm4ci7l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
+                <br/>
+
+                <p>
+                    I then used this idea to develop a further prototype into the latest version of the app called <a href="https://tap-jams.herokuapp.com" target="_blank" style={{color: "green"}}>TapJams</a>,
+                    a social music-making app for amateur musicians and general people interested in making their own songs in a fun, social, casual/non-professional setting.
+                    The app will eventually feature an easily accessible user interface including unique virtual musical instruments and innovative AI-assistive composition tools and an in-app social media platform for allowing users to make their own beats and share them with their friends just a few taps away.
+                    The product is currently being incubated through Harvard's Innovation Labs, where I joined in Spring 2022 through the Venture Program.
+                </p>
+
+                <br/>
+
+                <img src={TapJams} style={{height: "50%", width: "50%"}}></img>
             </div>
             
         );

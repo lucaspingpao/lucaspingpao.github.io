@@ -5,10 +5,10 @@ import LucasCard from '../components/LucasCard';
 import '../styles/App.css';
 import Computer from "../assets/computer.png";
 import Math from "../assets/math.jpg";
-import Data from "../assets/data.png";
 import IvyHacks from "../assets/ivyhacks.png";
 import Datamatch from "../assets/datamatch.png";
 import Synthesizer from "../assets/synth.png";
+import PlayHouse from "../assets/PlayHouse.png";
 
 class Coding extends React.Component {
     constructor(props) {
@@ -27,10 +27,10 @@ class Coding extends React.Component {
         const cardInfos = [
             {link:"/cssquared", logo:Computer, title:"CSCS: Computer Science Course Selector"},
             {link:"/rshinyapps", logo:Math, title:"Math Visualization Apps in RShiny"},
-            {link:"/wavelearning", logo:Data, title:"Wave Learning Festival: Data Analysis and Web Apps"},
             {link:"/votrcrowd", logo:IvyHacks, title:"VotrCrowd: IvyHacks Hackathon"},
             {link:"/polysymph", logo:Synthesizer, title:"PolySymph Synthesizer"},
-            {link:"/datamatch", logo:Datamatch, title:"Harvard Datamatch"}
+            {link:"/datamatch", logo:Datamatch, title:"Harvard Datamatch"},
+            {link:"/playhouse", logo:PlayHouse, title:"PlayHouse"},
         ]
 
         const cards = cardInfos.map((card) =>
@@ -48,7 +48,7 @@ class Coding extends React.Component {
                 <Title
                     emoji = "🧩"
                     title = "Coding"
-                    subtitle = "I am currently a junior at Harvard studying Computer Science and Mathematics."
+                    subtitle = "I am currently a senior at Harvard studying Computer Science and Mathematics."
                     color = "rgb(224, 255, 231)"
                 />
                 <div className="cards">{cards}</div>

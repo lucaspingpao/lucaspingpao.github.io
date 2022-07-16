@@ -20,8 +20,6 @@ class RShinyApps extends React.Component {
                     During the summer of 2020, my former math professor Paul Bamberg helped mentor me in creating these visualization apps in RShiny. Here are some fof my featured apps that you should check out:
                 </p>
 
-                <br/>
-
                 <p>
                     <ol>
                     <li><a href="https://lucaspingpao.shinyapps.io/Math23a-Week1-MarkovModels/">Markov Models</a>: Calculates the number of paths between vertices on a finite directed graph with transition matrices.</li>
@@ -36,6 +34,20 @@ class RShinyApps extends React.Component {
 
                 <iframe className="frame" src="https://lucaspingpao.shinyapps.io/Math23-Week5-Sequences/" frameBorder="0"></iframe>
 
+                <br/>
+                
+                <p>
+                    I had so much fun exploring the graphical capabilities and data analysis tools in R/RShiny through another project that I volunteered to take on several teaching roles to share my skills in R with other students.
+                    I became a coding assistant for S-152: Discrete Mathematics and volunteered for Wave Learning Festival,
+                    in which I co-taught a 5-day seminar called "Data Analysis and Web Apps in RShiny", covering programming, statistics, data analysis/visualization tools in R, and web application development in RShiny for 30+ high-school students!
+                    Here below are some lecture reocrdings of my class, shared through my other YouTube channel,
+                    <a href="https://www.youtube.com/channel/UCMta0o0GMm6zw6IFPf_Epgw"> PaoCodingTutorials</a>.
+                </p>
+
+                <br/>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLjT_SXeguj8BnrPFmkfAJnDY_9h9xCpWO" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                
             </div>
             
         );

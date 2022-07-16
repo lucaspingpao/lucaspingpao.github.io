@@ -9,10 +9,10 @@ import About from './pages/About';
 import Coding from './pages/Coding';
 import CSsquared from './pages/Coding/CSsquared';
 import RShinyApps from './pages/Coding/RShinyApps';
-import WaveLearning from './pages/Coding/WaveLearning';
 import VotrCrowd from './pages/Coding/VotrCrowd';
 import PolySymph from './pages/Coding/PolySymph';
 import DataMatch from './pages/Coding/DataMatch';
+import PlayHouse from './pages/Coding/PlayHouse';
 
 
 import Music from './pages/Music';
@@ -44,10 +44,10 @@ class App extends React.Component {
               <Route exact path="/coding"><Coding/></Route>
                   <Route exact path="/coding/cssquared"><CSsquared/></Route>
                   <Route exact path="/coding/rshinyapps"><RShinyApps/></Route>
-                  <Route exact path="/coding/wavelearning"><WaveLearning/></Route>
                   <Route exact path="/coding/votrcrowd"><VotrCrowd/></Route>
                   <Route exact path="/coding/polysymph"><PolySymph/></Route>
                   <Route exact path="/coding/datamatch"><DataMatch/></Route>
+                  <Route exact path="/coding/playhouse"><PlayHouse/></Route>
               <Route exact path="/music"><Music/></Route>
                   <Route exact path="/music/100daysongchallenge"><HundredSongs/></Route>
                   <Route exact path="/music/composition"><Composition/></Route>
