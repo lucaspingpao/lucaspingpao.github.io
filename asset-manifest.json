@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.986d2416.chunk.css",
-    "main.js": "/static/js/main.d166b3bf.chunk.js",
-    "main.js.map": "/static/js/main.d166b3bf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.09c80ff0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.09c80ff0.js.map",
-    "static/js/2.d2c1b15e.chunk.js": "/static/js/2.d2c1b15e.chunk.js",
-    "static/js/2.d2c1b15e.chunk.js.map": "/static/js/2.d2c1b15e.chunk.js.map",
+    "main.css": "/static/css/main.969e7882.chunk.css",
+    "main.js": "/static/js/main.746fb6a9.chunk.js",
+    "main.js.map": "/static/js/main.746fb6a9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2a6546c3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2a6546c3.js.map",
+    "static/js/2.577416f5.chunk.js": "/static/js/2.577416f5.chunk.js",
+    "static/js/2.577416f5.chunk.js.map": "/static/js/2.577416f5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ea5089dc91af4cbeb11ea7988616e86e.js": "/precache-manifest.ea5089dc91af4cbeb11ea7988616e86e.js",
+    "precache-manifest.5be07e0fdf67fbd8562bba8a6e3789bf.js": "/precache-manifest.5be07e0fdf67fbd8562bba8a6e3789bf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.986d2416.chunk.css.map": "/static/css/main.986d2416.chunk.css.map",
-    "static/js/2.d2c1b15e.chunk.js.LICENSE.txt": "/static/js/2.d2c1b15e.chunk.js.LICENSE.txt",
+    "static/css/main.969e7882.chunk.css.map": "/static/css/main.969e7882.chunk.css.map",
+    "static/js/2.577416f5.chunk.js.LICENSE.txt": "/static/js/2.577416f5.chunk.js.LICENSE.txt",
     "static/media/Composition.jpg": "/static/media/Composition.a3f9d5eb.jpg",
     "static/media/DJing.jpg": "/static/media/DJing.51a21dcd.jpg",
     "static/media/GitHubLogo.png": "/static/media/GitHubLogo.cefc2023.png",
     "static/media/JustMoveRightAlong.png": "/static/media/JustMoveRightAlong.44f916c5.png",
     "static/media/LeaveYouAlone.png": "/static/media/LeaveYouAlone.290e8a74.png",
+    "static/media/Lucas Pao Berklee.jpg": "/static/media/Lucas Pao Berklee.c993d261.jpg",
+    "static/media/Lucas_Pao.JPG": "/static/media/Lucas_Pao.7fdac4c2.JPG",
     "static/media/OneMoveAtATime.png": "/static/media/OneMoveAtATime.a77203db.png",
     "static/media/PlayHouse.png": "/static/media/PlayHouse.8ff70957.png",
     "static/media/PlayHouseScreen.png": "/static/media/PlayHouseScreen.6256e206.png",
@@ -33,9 +35,9 @@
     "static/media/youtube.png": "/static/media/youtube.07b8560a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.09c80ff0.js",
-    "static/js/2.d2c1b15e.chunk.js",
-    "static/css/main.986d2416.chunk.css",
-    "static/js/main.d166b3bf.chunk.js"
+    "static/js/runtime-main.2a6546c3.js",
+    "static/js/2.577416f5.chunk.js",
+    "static/css/main.969e7882.chunk.css",
+    "static/js/main.746fb6a9.chunk.js"
   ]
 }
