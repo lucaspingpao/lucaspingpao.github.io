@@ -13,14 +13,6 @@ import PolySymph from './pages/Coding/PolySymph';
 import DataMatch from './pages/Coding/DataMatch';
 import PlayHouse from './pages/Coding/PlayHouse';
 
-
-import Music from './pages/Music';
-import HundredSongs from './pages/Music/HundredSongs';
-import Composition from './pages/Music/Composition';
-import DJing from './pages/Music/DJing';
-import Production from './pages/Music/Production';
-
-
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 

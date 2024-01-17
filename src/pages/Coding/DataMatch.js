@@ -31,7 +31,7 @@ class DataMatch extends React.Component {
 
                 <br/><br/>
 
-                <img src={Schedule} style={{height: "50%", width: "50%"}}></img>
+                <img src={Schedule} style={{height: "50%", width: "50%"}} alt="Screenshot of a schedule component from the Datamatch app where a user can select when they are available for a date."></img>
             </div>
             
         );

@@ -10,7 +10,7 @@ class HomeCard extends React.Component {
     render() {
         return (
             <div className={this.props.styleClass}>
-                <img src={this.props.logo}></img>
+                <img src={this.props.logo} alt={this.props.alt}></img>
                 <br/>
                 <div>{this.props.title}</div>
             </div>

@@ -1,11 +1,9 @@
 import React from 'react';
 import {Redirect} from 'react-router-dom';
-import Title from "../components/Title";
 import LucasCard from '../components/LucasCard';
 import '../styles/App.css';
 import Computer from "../assets/computer.png";
 import Math from "../assets/math.jpg";
-import IvyHacks from "../assets/ivyhacks.png";
 import VotrCrowd from "../assets/VotrCrowd.jpg";
 import Datamatch from "../assets/datamatch.png";
 import Synthesizer from "../assets/synth.png";
@@ -26,17 +24,17 @@ class Projects extends React.Component {
 
     render() {
         const cardInfos = [
-            {link:"/cssquared", logo:Computer, title:"CSCS: Computer Science Course Selector"},
-            {link:"/rshinyapps", logo:Math, title:"Interactive Abstract Math Visualization Apps"},
-            {link:"/votrcrowd", logo:VotrCrowd, title:"VotrCrowd"},
-            {link:"/polysymph", logo:Synthesizer, title:"PolySymph Synthesizer & TapJams"},
-            {link:"/datamatch", logo:Datamatch, title:"Harvard Datamatch"},
-            {link:"/playhouse", logo:PlayHouse, title:"PlayHouse"},
+            {link:"/cssquared", logo:Computer, title:"CSCS: Computer Science Course Selector", alt: "Computer logo"},
+            {link:"/rshinyapps", logo:Math, title:"Interactive Abstract Math Visualization Apps", alt: "Math symbols"},
+            {link:"/votrcrowd", logo:VotrCrowd, title:"VotrCrowd", alt: "Vote logo"},
+            {link:"/polysymph", logo:Synthesizer, title:"PolySymph Synthesizer & TapJams", alt: "Mini keyboard"},
+            {link:"/datamatch", logo:Datamatch, title:"Harvard Datamatch", alt: "Heart-shaped Datamatch logo"},
+            {link:"/playhouse", logo:PlayHouse, title:"PlayHouse", alt: "PlayHouse logo"},
         ]
 
         const cards = cardInfos.map((card) =>
             <div onClick={() => this.handleClick(card.link)}>
-                <LucasCard logo={card.logo} title={card.title} styleClass="card"/>
+                <LucasCard logo={card.logo} title={card.title} alt={card.alt} styleClass="card"/>
             </div>
         );
 

@@ -25,7 +25,7 @@ class PlayHouse extends React.Component {
 
                 <br/><br/>
 
-                <img src={PlayHouseScreen} style={{height: "25%", maxWidth: "25%"}}></img>
+                <img src={PlayHouseScreen} style={{height: "25%", maxWidth: "25%"}} alt="App page showing a hypothetical list of shows coming up and how many days away until that show is happening."></img>
             </div>
             
         );

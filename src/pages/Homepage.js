@@ -33,7 +33,7 @@ class Homepage extends React.Component {
                     <button onClick={() => this.handleClick("experience")}>Experience</button>
                 </div>
                 <div style={{padding: "10%"}}>
-                    <img src={LucasFace} style={{width: "100%", height: "auto", borderRadius: "150px"}}></img>
+                    <img src={LucasFace} style={{width: "100%", height: "auto", borderRadius: "150px"}} alt="Portrait of Lucas' face."></img>
                 </div>
             </div>
         );

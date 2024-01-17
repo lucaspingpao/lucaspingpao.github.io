@@ -19,14 +19,14 @@ class PolySymph extends React.Component {
 
                 <p>
                     In the fall semester of 2020, I took a class called "How Music Works: Engineering the Acoustical World", in which we applied concepts from mechnical and eletrical engineering to explore and create our own musical systems.
-                    For my final project in this class, I developed a web app called <a href="https://polysymph.herokuapp.com" target="_blank" style={{color: "green"}}>PolySymph</a> (a wordplay on "Polyphonic Synthesizer" + "Symphony"),
+                    For my final project in this class, I developed a web app called <a href="https://polysymph.herokuapp.com" target="_blank" rel="noopener noreferrer" style={{color: "green"}}>PolySymph</a> (a wordplay on "Polyphonic Synthesizer" + "Symphony"),
                     a music composition app that allows the user to experiment with the fundamental components of a band in a uniquely displayed format.
                 </p>
 
                 <p>
                     I first synthesized original sounds on the backend in Python by superpositioning sinewave signals according to fixed (and random!) sets of Fourier coefficients.
                     I then mapped these sounds to the frontend user interface of the app using the micro web framework Flask.
-                    Find the complete web app <a href="https://polysymph.herokuapp.com" target="_blank" style={{color: "green"}}>here</a>, or
+                    Find the complete web app <a href="https://polysymph.herokuapp.com" target="_blank" rel="noopener noreferrer" style={{color: "green"}}>here</a>, or
                     watch the video below to find out more about how I created the backend synthesizer that supports the audio signals in the app!
                 </p>
 
@@ -39,7 +39,7 @@ class PolySymph extends React.Component {
                 <h2>TapJams</h2>
 
                 <p>
-                    I then used this idea to develop a further prototype into the latest version of the app called <a href="https://tap-jams.herokuapp.com" target="_blank" style={{color: "green"}}>TapJams</a>,
+                    I then used this idea to develop a further prototype into the latest version of the app called <a href="https://tap-jams.herokuapp.com" target="_blank" rel="noopener noreferrer" style={{color: "green"}}>TapJams</a>,
                     a social music-making app for amateur musicians and general people interested in making their own songs in a fun, social, casual/non-professional setting.
                     The app will eventually feature an easily accessible user interface including unique virtual musical instruments and innovative AI-assistive composition tools and an in-app social media platform for allowing users to make their own beats and share them with their friends just a few taps away.
                     The product is currently being incubated through Harvard's Innovation Labs, where I joined in Spring 2022 through the Venture Program.
@@ -47,7 +47,7 @@ class PolySymph extends React.Component {
 
                 <br/><br/>
 
-                <img src={TapJams} style={{height: "50%", width: "50%"}}></img>
+                <img src={TapJams} style={{height: "50%", width: "50%"}} alt="TapJams app page showing drum instruments and a drum machine interface to program one's own rhythm."></img>
             </div>
             
         );

@@ -36,7 +36,7 @@ class RShinyApps extends React.Component {
 
                 <br/><br/>
 
-                <iframe className="frame" src="https://lucaspingpao.shinyapps.io/Math23-Week5-Sequences/" frameBorder="0"></iframe>
+                <iframe className="frame" src="https://lucaspingpao.shinyapps.io/Math23-Week5-Sequences/" frameBorder="0" title="Sequences RShiny App"></iframe>
 
                 <br/><br/>
                 
@@ -50,7 +50,7 @@ class RShinyApps extends React.Component {
 
                 <br/><br/>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLjT_SXeguj8BnrPFmkfAJnDY_9h9xCpWO" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLjT_SXeguj8BnrPFmkfAJnDY_9h9xCpWO" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScree title="RShiny tutorial"></iframe>
                 
             </div>
             

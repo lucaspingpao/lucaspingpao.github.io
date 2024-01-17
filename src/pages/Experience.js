@@ -43,6 +43,7 @@ class Experience extends React.Component {
                     <div>
                         <img
                             src={LucasFace}
+                            alt="Portrait of Lucas standing in a field with a Harvard-logo T-shirt."
                             style={{
                                 marginLeft: "15%",
                                 width: "75%",
@@ -88,7 +89,6 @@ class Experience extends React.Component {
                             <h3>HARVARD DATAMATCH</h3>
                             <h4>Full-Stack Developer</h4>
                             <h4>Nov 2020 - Feb 2022</h4>
-                            <h4></h4>
                             <h5>
                                 Developed scheduling and message reacting features with React JS frontend and Google Firebase backend, connecting 40,000+ college students from 30+ colleges.
                             </h5>
@@ -139,7 +139,6 @@ class Experience extends React.Component {
                             <h3>HARVARD DATAMATCH</h3>
                             <h4>Full-Stack Developer</h4>
                             <h4>Nov 2020 - Feb 2022</h4>
-                            <h4></h4>
                             <h5>
                                 Developed scheduling and message reacting features with React JS frontend and Google Firebase backend, connecting 40,000+ college students from 30+ colleges.
                             </h5>

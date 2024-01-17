@@ -15,12 +15,12 @@ class Footer extends React.Component {
           <div>
                 <div className="footer">
                     <div className="text">Designed by Lucas Pao.<br/>Check out some more projects here!</div>
-                    <a className="github"href="https://github.com/lucaspingpao" target="_blank">
-                        <img className="github-logo-pic" src={GithubPic}></img>
-                        <img className="github-pic-pic" src={GithubLogo}></img>
+                    <a className="github"href="https://github.com/lucaspingpao" target="_blank" rel="noopener noreferrer">
+                        <img className="github-logo-pic" alt="GitHub logo" src={GithubPic}></img>
+                        <img className="github-pic-pic" alt="GitHub" src={GithubLogo}></img>
                     </a>
-                    <a className="youtube" href="https://www.youtube.com/@paocodingtutorials2143/videos" target="_blank">
-                        <img className="youtube-pic" src={YouTube}></img>
+                    <a className="youtube" href="https://www.youtube.com/@paocodingtutorials2143/videos" target="_blank" rel="noopener noreferrer">
+                        <img className="youtube-pic" alt="YouTube logo" src={YouTube}></img>
                     </a>
                 </div>
           </div>
