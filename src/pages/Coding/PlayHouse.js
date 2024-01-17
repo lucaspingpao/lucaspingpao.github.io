@@ -8,6 +8,10 @@ class PlayHouse extends React.Component {
         this.state = {};
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div className="projectBody">
@@ -19,7 +23,7 @@ class PlayHouse extends React.Component {
                     I mostly worked on frontend development, rendering screens such as the one below and managing navigation across the app.
                 </p>
 
-                <br/>
+                <br/><br/>
 
                 <img src={PlayHouseScreen} style={{height: "25%", maxWidth: "25%"}}></img>
             </div>

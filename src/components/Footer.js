@@ -19,7 +19,7 @@ class Footer extends React.Component {
                         <img className="github-logo-pic" src={GithubPic}></img>
                         <img className="github-pic-pic" src={GithubLogo}></img>
                     </a>
-                    <a className="youtube" href="https://www.youtube.com/channel/UCm0a7WR5C2684z6fL5XNodw" target="_blank">
+                    <a className="youtube" href="https://www.youtube.com/@paocodingtutorials2143/videos" target="_blank">
                         <img className="youtube-pic" src={YouTube}></img>
                     </a>
                 </div>

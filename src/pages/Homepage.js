@@ -1,10 +1,7 @@
 import React from 'react';
 import {Redirect} from 'react-router-dom';
 import '../styles/App.css';
-import Title from "../components/Title";
-import LucasCard from '../components/LucasCard';
-import Computer from "../assets/computer.png";
-import Music from "../assets/music.png";
+import LucasFace from "../assets/Lucas Pao Berklee.jpg";
 
 class Homepage extends React.Component {
     constructor(props) {
@@ -20,29 +17,24 @@ class Homepage extends React.Component {
     }
 
     render() {
-        const cardInfos = [
-            {link:"coding", logo:Computer, title:"Coding"},
-            {link:"", logo:Music, title:"Music"}
-        ]
-
-        const cards = cardInfos.map((card) =>
-            <div onClick={() => this.handleClick(card.link)}>
-                <LucasCard logo={card.logo} title={card.title} styleClass="card homeCard"/>
-            </div>
-        );
-
         if(this.state.redirectLink !== "/") {
             return <Redirect to={this.state.redirectLink}/>
         }
+
         return (
-            <div>
-                <Title
-                    emoji = "👋"
-                    title = "Welcome!"
-                    subtitle = "My name is Lucas Pao, and I like to create."
-                    color = "rgb(255, 248, 224)"
-                />
-                <div className="cards2">{cards}</div>
+            <div className="homeLayout">
+                <div>
+                    <h1>Lucas Pao</h1>
+                    <h2 style={{margin: "0"}}>Software Engineer.</h2>
+                    <h2 style={{margin: "0"}}>Full-Stack Developer.</h2>
+                    <h2 style={{margin: "0"}}>Mobile App Developer.</h2>
+                    <br/>
+                    <button onClick={() => this.handleClick("projects")}>Projects</button>
+                    <button onClick={() => this.handleClick("experience")}>Experience</button>
+                </div>
+                <div style={{padding: "10%"}}>
+                    <img src={LucasFace} style={{width: "100%", height: "auto", borderRadius: "150px"}}></img>
+                </div>
             </div>
         );
     }

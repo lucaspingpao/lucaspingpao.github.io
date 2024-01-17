@@ -7,6 +7,10 @@ class VotrCrowd extends React.Component {
         this.state = {};
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div className="projectBody">
@@ -24,7 +28,7 @@ class VotrCrowd extends React.Component {
                     VotrCrwd also provides users with voter registration and absentee ballot request information. Here below is a video I made highlighting the main capaibilities of our initial prototype!
                 </p>
 
-                <br/>
+                <br/><br/>
                 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/5WL0OOjLrmU" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>   
                 

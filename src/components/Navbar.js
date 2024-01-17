@@ -1,5 +1,4 @@
 import React from 'react';
-import {AppBar, Button, Toolbar} from '@material-ui/core';
 import {Link} from 'react-router-dom';
 import '../styles/Navbar.css';
 
@@ -13,8 +12,8 @@ class Navbar extends React.Component {
         return (
           <div className="navbar">
                 <Link className="button" to="/">Home</Link>
-                <Link className="button" to="/coding">Coding</Link>
-                <a className="button" href="https://www.lucaspaomusic.com" target="_blank">Music</a>
+                <Link className="button" to="/projects">Projects</Link>
+                <Link className="button" to="/experience">Experience</Link>
           </div>
           );
     }

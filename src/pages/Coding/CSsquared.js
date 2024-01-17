@@ -8,6 +8,10 @@ class CSsquared extends React.Component {
         this.state = {};
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div className="projectBody">
@@ -20,7 +24,7 @@ class CSsquared extends React.Component {
                     Here below is a video explaining the project in more detail!
                 </p>
 
-                <br/>
+                <br/><br/>
 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/F4xodbOdgjE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>

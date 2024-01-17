@@ -8,6 +8,10 @@ class PolySymph extends React.Component {
         this.state = {};
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div className="projectBody">
@@ -26,11 +30,13 @@ class PolySymph extends React.Component {
                     watch the video below to find out more about how I created the backend synthesizer that supports the audio signals in the app!
                 </p>
 
-                <br/>
+                <br/><br/>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Lcgwm4ci7l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/InGrKBRRCUc?si=bqKphcbbNVl7OQN3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
-                <br/>
+                <br/><br/><br/>
+
+                <h2>TapJams</h2>
 
                 <p>
                     I then used this idea to develop a further prototype into the latest version of the app called <a href="https://tap-jams.herokuapp.com" target="_blank" style={{color: "green"}}>TapJams</a>,
@@ -39,7 +45,7 @@ class PolySymph extends React.Component {
                     The product is currently being incubated through Harvard's Innovation Labs, where I joined in Spring 2022 through the Venture Program.
                 </p>
 
-                <br/>
+                <br/><br/>
 
                 <img src={TapJams} style={{height: "50%", width: "50%"}}></img>
             </div>

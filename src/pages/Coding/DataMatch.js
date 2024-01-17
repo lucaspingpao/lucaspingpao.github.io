@@ -8,6 +8,10 @@ class DataMatch extends React.Component {
         this.state = {};
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div className="projectBody">
@@ -25,7 +29,7 @@ class DataMatch extends React.Component {
                     In 2022, we connected over 50,000 college students from around the world!
                 </p>
 
-                <br/>
+                <br/><br/>
 
                 <img src={Schedule} style={{height: "50%", width: "50%"}}></img>
             </div>

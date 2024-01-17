@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -13,19 +13,10 @@ body {
 }
 
 p {
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
   text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h2 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h3 {
-  padding-left: 15%;
-  padding-right: 15%;
 }
 
 h1 {
@@ -33,23 +24,36 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.cards {
-  padding-top: 6%;
-  padding-bottom: 8%;
-  display: grid;
-  justify-content: center;
-  justify-items: center;
-  grid-template-columns: 30% 30% 30%;
-  grid-row-gap: 4vw;
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 34px;
+  white-space: normal;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
-.cards2 {
-  padding-top: 6%;
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+h5 {
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cards {
+  text-align: center;
+  padding-top: 0%;
   padding-bottom: 8%;
   display: grid;
-  justify-content: center;
   justify-items: center;
-  grid-template-columns: 30% 30%;
+  justify-content: center;
+  grid-template-columns: 30% 30% 30%;
   grid-row-gap: 4vw;
 }
 
@@ -76,6 +80,49 @@ h1 {
   width: auto;
 }
 
+.homeLayout {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+  padding: 3%;
+  padding-bottom: 15%;
+}
+
+.expLayout {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+  padding-bottom: 10%;
+  row-gap: 2vw;
+}
+
+.expLeft {
+  text-align: right;
+  padding-right: 5%;
+  border-right: 2px solid black;
+}
+
+.expRight {
+  text-align: left;
+  padding-left: 5%;
+  border-left: 2px solid black;
+}
+
+button {
+  padding: 6px;
+  margin-right: 24px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.other {
+  padding: 0px 0px 0px 10px;
+}
+
 @media (max-width: 660px) {
   h1 {font-size: 45px;}
   h2 {font-size: 16px;}
@@ -94,13 +141,5 @@ h1 {
   h3 {
     padding-left: 5%;
     padding-right: 5%;
-  }
-
-  .cards2 {
-    display: grid;
-    justify-content: center;
-    justify-items: center;
-    grid-template-columns: 35% 35%;
-    grid-row-gap: 4vw;
   }
 }
