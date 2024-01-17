@@ -45,8 +45,8 @@ class App extends React.Component {
                   <Route exact path="/projects/datamatch"><DataMatch/></Route>
                   <Route exact path="/projects/playhouse"><PlayHouse/></Route>
                 <Route exact path="/experience"><Experience/></Route>
-              <Route path='*'><Homepage/></Route>
-              {/* <Route exact path="/about"><About/></Route>
+              {/* <Route path='*'><Homepage/></Route>
+              <Route exact path="/about"><About/></Route>
               <Route exact path="/music"><Music/></Route>
                   <Route exact path="/music/100daysongchallenge"><HundredSongs/></Route>
                   <Route exact path="/music/composition"><Composition/></Route>
