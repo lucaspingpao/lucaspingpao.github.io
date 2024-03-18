@@ -40,8 +40,8 @@ class PolySymph extends React.Component {
                 <p>
                     I then used this idea to develop a further prototype into the latest version of the app called TapJams,
                     a social music-making app for amateur musicians and general people interested in making their own songs in a fun, social, casual/non-professional setting.
-                    The app will eventually feature an easily accessible user interface including unique virtual musical instruments and innovative AI-assistive composition tools and an in-app social media platform for allowing users to make their own beats and share them with their friends just a few taps away.
-                    The product is currently being incubated through Harvard's Innovation Labs, where I joined in Spring 2022 through the Venture Program.
+                    The app will eventually feature an easily accessible user interface including unique virtual musical instruments and an in-app social media platform for allowing users to make their own beats and share them with their friends just a few taps away.
+                    The product was incubated through Harvard's Innovation Labs through the Spring 2022 Venture Program.
                 </p>
 
                 <br/><br/>

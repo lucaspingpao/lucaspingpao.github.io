@@ -17,11 +17,10 @@ class RShinyApps extends React.Component {
                 <h2>Interactive Abstract Math Visualization Apps</h2>
 
                 <p>
-                    As a prospective Mathematics concentrator, I spent my first year taking foundational courses in theoretical and applied Linear Algebra and Real Analysis.
-                    While I found these classes fascinating and rewarding, transitioning into abstract thinking was quite a challenge.
-                    Many of peers around me also dealt with similar struggles as we worked through difficult proofs.
-                    So as a hands-on visual learner, I was inspired to create educational visualization apps to help me and my peers grasp these abstract mathematical concepts better.
-                    During the summer of 2020, my former math professor Paul Bamberg helped mentor me in creating these visualization apps in RShiny. Here are some fof my featured apps that you should check out:
+                    After taking foundational math courses covering theoretical topics in linear algebra and real analysis,
+                    many of my peers and I struggled with visualizing the abstract nature of these concepts for the first time.
+                    As a hands-on visual learner, I was inspired to create educational visualization apps to help me and my peers grasp these abstract mathematical concepts better.
+                    Here are some of my featured apps:
                 </p>
 
                 <p>
@@ -41,10 +40,10 @@ class RShinyApps extends React.Component {
                 <br/><br/>
                 
                 <p>
-                    I had so much fun exploring the graphical capabilities and data analysis tools in R/RShiny through another project that I volunteered to take on several teaching roles to share my skills in R with other students.
-                    I became a coding assistant for S-152: Discrete Mathematics and volunteered for Wave Learning Festival,
+                    I had so much fun exploring the graphical capabilities and data analysis tools in R/RShiny that I volunteered to take on several teaching roles to share my skills in R with other students.
+                    I became a teaching assistant for S-152: Discrete Mathematics and volunteered as a teacher for Wave Learning Festival,
                     in which I co-taught a 5-day seminar called "Data Analysis and Web Apps in RShiny", covering programming, statistics, data analysis/visualization tools in R, and web application development in RShiny for 30+ high-school students!
-                    Here below are some lecture reocrdings of my class, shared through my other YouTube channel,&nbsp;
+                    Here below are some lecture reocrdings of my class, shared through my YouTube channel,&nbsp;
                     <a href="https://www.youtube.com/channel/UCMta0o0GMm6zw6IFPf_Epgw">PaoCodingTutorials</a>.
                 </p>
 

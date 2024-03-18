@@ -18,9 +18,9 @@ class PlayHouse extends React.Component {
                 <h2>PlayHouse: Redefining Virtual Performance</h2>
                 
                 <p>
-                    During the summer of 2022, I worked as a mobile app developer for PlayHouse, a mobile playbook app designed to redefine virtual performance.
+                    I worked as a mobile app developer for PlayHouse Show Companion, a mobile playbook app designed to redefine virtual performance.
                     The app was originally designed during the height of the pandemic when live shows were cancelled and playrights needed to find an engaging way to create immersive experiences for audiences through a virtual format.
-                    I mostly worked on frontend development, rendering screens such as the one below and managing navigation across the app.
+                    I mostly worked on frontend development in React Native JS, rendering screens such as the one below and redesigning the navigation system across the app.
                 </p>
 
                 <br/><br/>

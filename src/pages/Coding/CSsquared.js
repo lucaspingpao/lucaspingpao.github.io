@@ -17,9 +17,8 @@ class CSsquared extends React.Component {
                 <h2>CSCS: Computer Science Course Selector</h2>
 
                 <p>
-                    I was first inspired to start studying Computer Science after taking CS50, Harvard's Introduction to Computer Science class.
-                    Here is one of my first coding projects that I developed with two of my friends as the final project for this class.
-                    In this project, we developed algorithms and webpages to help users navigate through the Harvard CS course catalog.
+                    In this project, we developed webpages and algorithms to recommend a custom course selection plan for prospective CS concentrators to help them navigate through the Harvard CS course catalog more easily.
+                    This project was developed using HTML, CSS (Bootstrap), Python (Flask), and SQL databases.
                     Here below is a video explaining the project in more detail!
                 </p>
 

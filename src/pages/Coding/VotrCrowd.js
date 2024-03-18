@@ -19,7 +19,7 @@ class VotrCrowd extends React.Component {
                 <p>
                     Through my journey into the tech world, I have been constantly inspired by the ways in which we can utiilize technology to improve all aspects of our society,
                     especially through emerging crossovers between technology and education, civics, social good, and more.
-                    I pursued a CivicTech project at the first annual virtual hackathon between the consortium of Ivy League schools called IvyHacks.
+                    I pursued a CivicTech project at the annual hackathon between the consortium of Ivy League schools called IvyHacks.
                 </p>
 
                 <p>

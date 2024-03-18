@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b20269ad.chunk.css",
+    "main.js": "/static/js/main.04054270.chunk.js",
+    "main.js.map": "/static/js/main.04054270.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2a6546c3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2a6546c3.js.map",
+    "static/js/2.54e22aa9.chunk.js": "/static/js/2.54e22aa9.chunk.js",
+    "static/js/2.54e22aa9.chunk.js.map": "/static/js/2.54e22aa9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.36d2d31546efad07a9f27cd0ebbe710b.js": "/precache-manifest.36d2d31546efad07a9f27cd0ebbe710b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b20269ad.chunk.css.map": "/static/css/main.b20269ad.chunk.css.map",
+    "static/js/2.54e22aa9.chunk.js.LICENSE.txt": "/static/js/2.54e22aa9.chunk.js.LICENSE.txt",
+    "static/media/GitHubLogo.png": "/static/media/GitHubLogo.cefc2023.png",
+    "static/media/Lucas Pao Berklee.jpg": "/static/media/Lucas Pao Berklee.c993d261.jpg",
+    "static/media/Lucas_Pao.JPG": "/static/media/Lucas_Pao.7fdac4c2.JPG",
+    "static/media/PlayHouse.png": "/static/media/PlayHouse.8ff70957.png",
+    "static/media/PlayHouseScreen.png": "/static/media/PlayHouseScreen.6256e206.png",
+    "static/media/TapJams.png": "/static/media/TapJams.f2d809ff.png",
+    "static/media/math.jpg": "/static/media/math.b135deb0.jpg",
+    "static/media/schedule.png": "/static/media/schedule.fbe86dfc.png",
+    "static/media/youtube.png": "/static/media/youtube.07b8560a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a6546c3.js",
+    "static/js/2.54e22aa9.chunk.js",
+    "static/css/main.b20269ad.chunk.css",
+    "static/js/main.04054270.chunk.js"
+  ]
+}
