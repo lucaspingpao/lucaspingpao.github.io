@@ -35,7 +35,7 @@ class Experience extends React.Component {
                         <br/>
                         <div>
                             <h3>BERKLEE COLLEGE OF MUSIC</h3>
-                            <h4>Sep 2023 - Jul 2024</h4>
+                            <h4>Sep 2023 - Jun 2024</h4>
                             <h5>M.A. Candidate in Creative Media and Technology</h5>
                             <h5>Harvard-Berklee Dual Degree Program</h5>
                         </div>
@@ -167,7 +167,7 @@ class Experience extends React.Component {
                                 <li><Link className='button' to="/projects/cssquared">Project: CSCS: Computer Science Course Selector</Link></li>
                                 <li><Link className='button' to="/projects/polysymph">Project: PolySympth Synthesizer</Link></li>
                                 <li className='other'>Experience: Photon Commerce</li>
-                                <li className='other'>Experience: TapJams</li>
+                                <li><Link className='button' to="/projects/polysymph">Project: TapJams</Link></li>
                             </ul>
                         </div>
                         <div>
@@ -175,8 +175,8 @@ class Experience extends React.Component {
                             <h4>2 years</h4>
                             <ul>
                                 <li><Link className='button' to="/projects/votrcrowd">Project: VotrCrowd</Link></li>
-                                <li className='other'>Experience: Datamatch</li>
-                                <li className='other'>Experience: PlayHouse</li>
+                                <li><Link className='button' to="/projects/datamatch">Project: Datamatch</Link></li>
+                                <li><Link className='button' to="/projects/playhouse">Project: PlayHouse</Link></li>
                                 <li><Link className='button' to="/projects/polysymph">Project: TapJams</Link></li>
                             </ul>
                         </div>
