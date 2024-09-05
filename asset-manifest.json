@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b20269ad.chunk.css",
-    "main.js": "/static/js/main.e2d932c2.chunk.js",
-    "main.js.map": "/static/js/main.e2d932c2.chunk.js.map",
+    "main.css": "/static/css/main.1cb326a3.chunk.css",
+    "main.js": "/static/js/main.23289a4f.chunk.js",
+    "main.js.map": "/static/js/main.23289a4f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2a6546c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.2a6546c3.js.map",
-    "static/js/2.54e22aa9.chunk.js": "/static/js/2.54e22aa9.chunk.js",
-    "static/js/2.54e22aa9.chunk.js.map": "/static/js/2.54e22aa9.chunk.js.map",
+    "static/js/2.73b9239d.chunk.js": "/static/js/2.73b9239d.chunk.js",
+    "static/js/2.73b9239d.chunk.js.map": "/static/js/2.73b9239d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7372c13bf582a0e39d1033cb84e3e642.js": "/precache-manifest.7372c13bf582a0e39d1033cb84e3e642.js",
+    "precache-manifest.b7b01ebfabb0020ff7ab149c6ca6586e.js": "/precache-manifest.b7b01ebfabb0020ff7ab149c6ca6586e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b20269ad.chunk.css.map": "/static/css/main.b20269ad.chunk.css.map",
-    "static/js/2.54e22aa9.chunk.js.LICENSE.txt": "/static/js/2.54e22aa9.chunk.js.LICENSE.txt",
+    "static/css/main.1cb326a3.chunk.css.map": "/static/css/main.1cb326a3.chunk.css.map",
+    "static/js/2.73b9239d.chunk.js.LICENSE.txt": "/static/js/2.73b9239d.chunk.js.LICENSE.txt",
     "static/media/GitHubLogo.png": "/static/media/GitHubLogo.cefc2023.png",
     "static/media/Lucas Pao Berklee.jpg": "/static/media/Lucas Pao Berklee.c993d261.jpg",
     "static/media/Lucas_Pao.JPG": "/static/media/Lucas_Pao.7fdac4c2.JPG",
     "static/media/PlayHouse.png": "/static/media/PlayHouse.8ff70957.png",
-    "static/media/PlayHouseScreen.png": "/static/media/PlayHouseScreen.6256e206.png",
+    "static/media/PlayHouseScreen.png": "/static/media/PlayHouseScreen.947fe9f2.png",
     "static/media/TapJams.png": "/static/media/TapJams.f2d809ff.png",
     "static/media/math.jpg": "/static/media/math.b135deb0.jpg",
     "static/media/schedule.png": "/static/media/schedule.fbe86dfc.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2a6546c3.js",
-    "static/js/2.54e22aa9.chunk.js",
-    "static/css/main.b20269ad.chunk.css",
-    "static/js/main.e2d932c2.chunk.js"
+    "static/js/2.73b9239d.chunk.js",
+    "static/css/main.1cb326a3.chunk.css",
+    "static/js/main.23289a4f.chunk.js"
   ]
 }
