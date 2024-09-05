@@ -1,9 +1,0 @@
-a {
-    color: blue;
-    padding: 6px 6px 6px 6px;
-    text-decoration: none;
-}
-
-a:active {
-    background-color: lightblue;
-}

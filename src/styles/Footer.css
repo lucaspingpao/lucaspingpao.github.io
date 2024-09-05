@@ -1,62 +1,60 @@
-.text {
-    color: gray;
-    grid-area: text;
-}
-
 .footer {
-    text-align: center;
     background-color: whitesmoke;
-    display: grid;
-    justify-content: center;
-    grid-template-areas:
-        "text text"
-        "github youtube";
-    grid-row-gap: 10px;
-    grid-column-gap: 20px;
-    padding: 5% 25% 5% 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0% 5% 0%;
     box-shadow: 0px 2.5px 5px #9E9E9E;
+    text-align: center;
+    gap: 10px;
 }
 
-.github-pic-pic {height: 20px;}
-.github-logo-pic {height: 23px;}
+.footerText p {
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+#disclaimer {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.footerLinks {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
 
 .github {
-    grid-area: github;
     border: 1.5px solid black;
-    padding: 6px 0px 4px 2px;
     border-radius: 5%;
     box-shadow: 1.5px 1.5px 2px #9E9E9E;
+    padding: 6px 8px 4px 10px;
 }
-
-.github:hover {
-    background-color: lightgray;
-}
-
-.github:active {
-    background-color: darkgray;
-}
-
-.youtube-pic {height: 20px;}
 
 .youtube {
-    grid-area: youtube;
     border: 1.5px solid black;
-    padding: 8px 0px 3px 0px;
     border-radius: 5%;
     box-shadow: 1.5px 1.5px 2px #9E9E9E;
+    padding: 9px 8px 0px 8px;
 }
 
-.youtube:hover {
-    background-color: pink;
-}
+.github:hover { background-color: lightgray; }
+.github:active { background-color: darkgray; }
+.github-pic-pic {height: 23px;}
+.github-logo-pic {height: 20px;}
 
-.youtube:active {
-    background-color: lightpink;
-}
+.youtube:hover { background-color: pink; }
+.youtube:active { background-color: lightpink; }
+.youtube-pic {height: 18px;}
 
-@media (max-width: 660px) {
-    .github-pic-pic {height: 15px}
-    .github-logo-pic {height: 17px}
-    .youtube-pic {height: 15px}
-    .text {font-size: 10px}
+@media (max-width: 600px) {
+    .github-pic-pic { height: 18px }
+    .github-logo-pic { height: 16px }
+    .youtube-pic { height: 14px }
+    .youtube { padding: 7.7px 8px 0px 8px;}
+    .footerText p { font-size: 12px }
+    #disclaimer { font-size: 8px }
 }

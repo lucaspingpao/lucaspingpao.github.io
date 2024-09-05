@@ -1,33 +1,43 @@
-import React from 'react';
-import '../../styles/App.css';
+import React, { useEffect } from 'react';
+import '../../styles/Project.css';
 
-class CSsquared extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
-
-    componentDidMount() {
+function CSsquared() {
+    
+    useEffect(() => {
         window.scrollTo(0, 0);
-    }
+    }, []);
 
-    render() {
-        return (
-            <div className="projectBody">
-                <h2>CSCS: Computer Science Course Selector</h2>
-
-                <p>
-                    In this project, we developed webpages and algorithms to recommend a custom course selection plan for prospective CS concentrators to help them navigate through the Harvard CS course catalog more easily.
-                    This project was developed using HTML, CSS (Bootstrap), Python (Flask), and SQL databases.
-                    Here below is a video explaining the project in more detail!
-                </p>
-
-                <br/><br/>
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/F4xodbOdgjE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="CSsquared"></iframe>
+    return (
+        <div className="projectContainer">
+            <h2>CSCS: Computer Science Course Selector</h2>
+            <div className="row">
+                <div>
+                    <div>
+                        <h3>Tech Stack:</h3>
+                        <p class="techSkills">Python, Flask, HTML, CSS (Bootstrap), SQL (SQLite)</p>
+                    </div>
+                    <div>
+                        <h3>Harvard Course Recommendation System</h3>
+                        <p>
+                            In this project, we developed webpages and algorithms to recommend a custom course selection plan for prospective CS concentrators to help them navigate through the Harvard CS course catalog more easily.
+                            This project was developed using HTML, CSS (Bootstrap), Python (Flask), and SQL databases.
+                            Here is a video explaining the project in more detail!
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.youtube.com/embed/F4xodbOdgjE?si=R70XXXeAqN-UR7nA&amp;start=23"
+                        title="YouTube video player for CSCS demo"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                    />
+                </div>
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default CSsquared;

@@ -1,0 +1,12 @@
+.cards {
+    text-align: center;
+    margin-bottom: 8vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4vw;
+}
+
+@media (max-width: 784px) {
+    
+}

@@ -1,0 +1,43 @@
+.homeContainer {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    gap: 5%;
+}
+
+.homeLeftText {
+    flex: 1;
+}
+
+.homeLeftText h1 {
+    text-align: left;
+}
+
+.homeLeftText h2 {
+    margin: 0;
+}
+
+.homeRightImage {
+    flex: 1;
+}
+
+.homeRightImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 25%;
+}
+
+@media (max-width: 784px) {
+    .homeContainer {
+        display: block;
+        text-align: center;
+    }
+
+    .homeLeftText h1 {
+        text-align: center;
+    }
+
+    .homeRightImage {
+        margin: 5%;
+    }
+}

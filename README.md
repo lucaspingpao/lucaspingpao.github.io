@@ -2,7 +2,7 @@
 
 Welcome! My name is Lucas Pao and I am a recent graduate from Harvard with a Bachelor's degree in Computer Science and a minor in Mathematics. Below is a summary of my educational and professional experiences.
 
-The first project I would like to highlight is my [Personal Portfolio Website](https://lucaspingpao.github.io/) which provides an interactive walk-through of the information you will find below. This website was developed with React (JavaScript), HTML, and CSS. It was also designed using exclusively native elements, i.e. no external design libraries have been referenced (you can check the code in this repo to verify!) in order to showcase my *frontend web development* skills.
+The first project I would like to highlight is my [Personal Portfolio Website](https://lucaspingpao.github.io/) which provides an interactive walk-through of the information you will find below. This website was developed with React (JavaScript), HTML, and CSS. It was also designed using exclusively native elements, i.e. no external CSS design libraries have been referenced (you can check the code in this repo to verify!) in order to showcase my *frontend web development* skills.
 
 ## Education
 
@@ -13,7 +13,7 @@ My journey into software development started with a theoretical foundation into 
 * [COMPSCI 124: Data Structures and Algorithms](https://groups.seas.harvard.edu/courses/cs124/cs124.html) (C++, Python)
 * [COMPSCI 181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/) (Python)
 
-## Projects:
+## Projects
 
 ### [Datamatch](https://datamatch.me)
 **Tech Stack:** JavaScript, React, HTML, CSS, Redux, Firebase
