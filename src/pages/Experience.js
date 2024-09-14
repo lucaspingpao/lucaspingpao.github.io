@@ -70,16 +70,16 @@ function Experience() {
                     <div id="employer">
                         <h4><b>Capital One</b></h4>
                         <h4><b>Harvard Innovation Labs</b></h4>
-                        <h4><b>Photon Commerce</b></h4>
                         <h4><b>Datamatch</b></h4>
+                        <h4><b>Photon Commerce</b></h4>
                         <h4><b>Harvard University</b></h4>
                     </div>
                     <div id="position">
                         <h4>Software Engineer Intern</h4>
                         <h4>Venture Program</h4>
-                        <h4>Software Engineer Intern</h4>
                         <h4>Full-Stack Developer</h4>
-                        <h4> Math Course Assistant Positions</h4>  
+                        <h4>Software Engineer Intern</h4>
+                        <h4>Math Course Assistant</h4>  
                     </div>
                     <div id="date">
                         <h4>Jun 2022 - Aug 2022</h4>
