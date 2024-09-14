@@ -1,27 +1,24 @@
-.expContainer {
-	h3 {
-		font-size: 32px;
-	}
-	
-	h4 {
-		margin: 0;
-		padding: 0;
-		font-size: 1.2vw;
-		font-weight: normal;
-	}
-	
-	h5 {
-		margin: 0;
-		padding: 0;
-	}
-
-	.school {
-		text-transform: uppercase;
-		font-size: 20px;
-		margin-bottom: 8px;
-	}
+.expContainer h3 {
+	font-size: 32px;
 }
 
+.expContainer h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2vw;
+	font-weight: normal;
+}
+	
+.expContainer h5 {
+	margin: 0;
+	padding: 0;
+}
+
+.expContainer .school {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
 
 .eduContainer {
 	display: grid;
@@ -59,19 +56,21 @@
 
 @media (max-width: 784px) {
 	.eduContainer { display: block; }
+
 	.eduContainer img { 
 		margin-top: 6vh;
 		max-width: 300px;
 	}
-	.expContainer {
-		h3 { 
-			text-align: center;
-			font-size: 28px;
-		}
-		h4 { font-size: 9px; }
-		h5 { font-size: 11px; }
-		li { font-size: 12px; }
-		p { font-size: 10px; }
-		.school { font-size: 18px; }
+	
+	.expContainer .school { font-size: 18px; }
+
+	.expContainer h3 { 
+		text-align: center;
+		font-size: 28px;
 	}
+		
+	.expContainer h4 { font-size: 9px; }
+	.expContainer h5 { font-size: 11px; }
+	.expContainer li { font-size: 12px; }
+	.expContainer p { font-size: 10px; }
 }

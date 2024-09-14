@@ -1,6 +1,5 @@
 import React from 'react';
 import LucasFace from "../assets/Lucas_Pao.JPG";
-import { Link } from 'react-router-dom';
 
 import '../styles/Experience.css';
 
