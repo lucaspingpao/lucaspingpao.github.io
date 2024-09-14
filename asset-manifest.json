@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.06700131.chunk.css",
+    "main.css": "/static/css/main.2793cd7d.chunk.css",
     "main.js": "/static/js/main.6ff3a20a.chunk.js",
     "main.js.map": "/static/js/main.6ff3a20a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2a6546c3.js",
@@ -8,9 +8,9 @@
     "static/js/2.73b9239d.chunk.js": "/static/js/2.73b9239d.chunk.js",
     "static/js/2.73b9239d.chunk.js.map": "/static/js/2.73b9239d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e3e96b47ef94f9fc6631dd218bf821d8.js": "/precache-manifest.e3e96b47ef94f9fc6631dd218bf821d8.js",
+    "precache-manifest.19d431ce26f9b349456fc9613ccaa774.js": "/precache-manifest.19d431ce26f9b349456fc9613ccaa774.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.06700131.chunk.css.map": "/static/css/main.06700131.chunk.css.map",
+    "static/css/main.2793cd7d.chunk.css.map": "/static/css/main.2793cd7d.chunk.css.map",
     "static/js/2.73b9239d.chunk.js.LICENSE.txt": "/static/js/2.73b9239d.chunk.js.LICENSE.txt",
     "static/media/GitHubLogo.png": "/static/media/GitHubLogo.cefc2023.png",
     "static/media/Lucas Pao Berklee.jpg": "/static/media/Lucas Pao Berklee.c993d261.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.2a6546c3.js",
     "static/js/2.73b9239d.chunk.js",
-    "static/css/main.06700131.chunk.css",
+    "static/css/main.2793cd7d.chunk.css",
     "static/js/main.6ff3a20a.chunk.js"
   ]
 }
