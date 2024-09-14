@@ -1,23 +1,30 @@
-h4 {
-	margin: 0;
-	padding: 0;
-	font-size: 1.2vw;
-	font-weight: normal;
+.expContainer {
+	h3 {
+		font-size: 32px;
+	}
+	
+	h4 {
+		margin: 0;
+		padding: 0;
+		font-size: 1.2vw;
+		font-weight: normal;
+	}
+	
+	h5 {
+		margin: 0;
+		padding: 0;
+	}
+
+	.school {
+		text-transform: uppercase;
+		font-size: 20px;
+		margin-bottom: 8px;
+	}
 }
 
-h5 {
-	margin: 0;
-	padding: 0;
-}
-
-.projectBody {
-	padding-top: 5%;
-	padding-bottom: 6%;
-}
 
 .eduContainer {
 	display: grid;
-	justify-content: center;
 	align-items: center;
 	grid-template-columns: 50% 50%;
 	padding-bottom: 10%;
@@ -25,7 +32,8 @@ h5 {
 }
 
 .eduContainer img {
-	margin-left: 15%;
+	display: block;
+    margin: 0 auto;
 	width: 75%;
 	height: auto;
 	border-radius: 50px;
@@ -34,11 +42,6 @@ h5 {
 .workContainer {
 	display: flex;
 	padding-bottom: 10%;
-}
-
-.company {
-	font-weight: bold;
-	text-transform: uppercase;
 }
 
 .workContainer #employer { flex: 1; }
@@ -53,17 +56,22 @@ h5 {
 .skillsContainer #category { flex: 1; }
 .skillsContainer #skill { flex: 3; font-weight: normal }
 
+
 @media (max-width: 784px) {
-	.eduContainer {
-		display: block;
+	.eduContainer { display: block; }
+	.eduContainer img { 
+		margin-top: 6vh;
+		max-width: 300px;
 	}
-
-	.eduContainer img {
-		margin-left: 0;
-		margin-top: 5vw;
+	.expContainer {
+		h3 { 
+			text-align: center;
+			font-size: 28px;
+		}
+		h4 { font-size: 9px; }
+		h5 { font-size: 11px; }
+		li { font-size: 12px; }
+		p { font-size: 10px; }
+		.school { font-size: 18px; }
 	}
-
-	h2 { text-align: center; }
-	h4 { font-size: 9px; }
-	li { font-size: 12px; }
 }

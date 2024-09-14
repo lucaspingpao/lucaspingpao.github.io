@@ -7,13 +7,13 @@ import '../styles/Experience.css';
 function Experience() {
 
     return (
-        <div>
+        <div className="expContainer">
             <h1>Experience</h1>
             <div className="eduContainer">
-                <div className="eduText">
-                    <h2 style={{ fontSize: 32 }}>Education</h2>
+                <div>
+                    <h3>Education</h3>
                     <div>
-                        <h3>HARVARD UNIVERSITY</h3>
+                        <h4 className="school">Harvard University</h4>
                         <h5>B.A. in Computer Science (Honors), Minor in Mathematics</h5>
                         <h5>Sep 2019 - May 2023</h5>
                         <h5>Honors: Cum Laude</h5>
@@ -49,11 +49,10 @@ function Experience() {
                     </div>
                     <br/>
                     <div>
-                        <h3>BERKLEE COLLEGE OF MUSIC</h3>
+                        <h4 className="school">Berklee College of Music</h4>
                         <h5>M.A. Candidate in Creative Media and Technology</h5>
                         <h5>Sep 2023 - Jul 2024</h5>
-                        <br/>
-                        <i>Integrated 5-year dual degree program between Harvard and Berklee.</i>
+                        <p><i>Integrated 5-year dual degree program between Harvard and Berklee.</i></p>
                     </div>
                 </div>
                 <div>
@@ -62,17 +61,17 @@ function Experience() {
             </div>
 
             <div>
-                <h2 style={{ fontSize: 32 }}>Work Experience</h2>
-                <p style={{ marginTop: -20, marginBottom: 30 }}>
+                <h3>Work Experience</h3>
+                <p style={{ marginTop: -15, marginBottom: 30 }}>
                     <i>Please contact me on <a href="https://www.linkedin.com/in/lucaspingpao/" target="_blank" rel="noopener noreferrer">LinkedIn</a> for a more detailed resume.</i>
                 </p>
                 <div className="workContainer">
                     <div id="employer">
-                        <h4 class="company">Capital One</h4>
-                        <h4 class="company">Harvard Innovation Labs</h4>
-                        <h4 class="company">Photon Commerce</h4>
-                        <h4 class="company">Datamatch</h4>
-                        <h4 class="company">Harvard University</h4>
+                        <h4><b>Capital One</b></h4>
+                        <h4><b>Harvard Innovation Labs</b></h4>
+                        <h4><b>Photon Commerce</b></h4>
+                        <h4><b>Datamatch</b></h4>
+                        <h4><b>Harvard University</b></h4>
                     </div>
                     <div id="position">
                         <h4>Software Engineer Intern</h4>
@@ -92,12 +91,12 @@ function Experience() {
             </div>
             
             <div>
-                <h2 style={{ fontSize: 32 }}>Technical Skills</h2>
+                <h3>Technical Skills</h3>
                 <div className="skillsContainer">
                     <div id="category">
-                        <h4 class="company">Programming:</h4>
-                        <h4 class="company">Frontend / Design:</h4>
-                        <h4 class="company">Backend / Database:</h4>
+                        <h4><b>Programming:</b></h4>
+                        <h4><b>Frontend / Design:</b></h4>
+                        <h4><b>Backend / Database:</b></h4>
                     </div>
                     <div id="skill">
                         <h4>Python, JavaScript, Swift, C/C++, Java, OCaml, R</h4>
