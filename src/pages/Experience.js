@@ -17,31 +17,33 @@ function Experience() {
                         <h5>Sep 2019 - May 2023</h5>
                         <h5>Honors: Cum Laude</h5>
                         <br/>
-                        <i>Relevant Coursework:</i>
+                        <p style={{ marginTop: 0, marginBottom: -8 }}>
+                            <i>Relevant Coursework:</i>
+                        </p>
                         <ul>
                             <li>
                                 <a href="https://cs51.io/" target="_blank" rel="noopener noreferrer">
-                                    COMPSCI 51: Abstraction and Design for Computation
+                                    CS 51: Abstraction and Design for Computation
                                 </a> (OCaml)
                             </li>
                             <li>
                                 <a href="https://cs61.seas.harvard.edu/site/" target="_blank" rel="noopener noreferrer">
-                                    COMPSCI 61: Systems Programming and Machine Organization
+                                    CS 61: Systems Programming and Machine Organization
                                 </a> (C)
                             </li>
                             <li>
                                 <a href="https://glassmanlab.seas.harvard.edu/cs179.html" target="_blank" rel="noopener noreferrer">
-                                    COMPSCI 79: Design of Useful and Usable Interactive Systems
+                                    CS 79: Design of Useful and Usable Interactive Systems
                                 </a> (Figma)
                             </li>
                             <li>
                                 <a href="https://groups.seas.harvard.edu/courses/cs124/cs124.html" target="_blank" rel="noopener noreferrer">
-                                    COMPSCI 124: Data Structures and Algorithms
+                                    CS 124: Data Structures and Algorithms
                                 </a> (C++, Python)
                             </li>
                             <li>
                                 <a href="https://harvard-ml-courses.github.io/cs181-web/" target="_blank" rel="noopener noreferrer">
-                                    COMPSCI 181: Machine Learning
+                                    CS 181: Machine Learning
                                 </a> (Python)
                             </li>
                         </ul>

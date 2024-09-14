@@ -8,5 +8,5 @@
 }
 
 @media (max-width: 784px) {
-    
+    .cards { gap: 5vw; }
 }
