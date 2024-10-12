@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -17,33 +17,26 @@ import PlayHouse from './pages/Coding/PlayHouse';
 
 import './styles/App.css';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <HashRouter basename={process.env.PUBLIC_URL}>
-        <Navbar />
-        <div id="main">
-            <Switch>
-              <Route exact path="/"><Homepage /></Route>
-              <Route exact path="/projects"><Projects /></Route>
-                  <Route exact path="/projects/cssquared"><CSsquared /></Route>
-                  <Route exact path="/projects/rshinyapps"><RShinyApps /></Route>
-                  <Route exact path="/projects/votrcrowd"><VotrCrowd /></Route>
-                  <Route exact path="/projects/polysymph"><PolySymph /></Route>
-                  <Route exact path="/projects/datamatch"><DataMatch /></Route>
-                  <Route exact path="/projects/playhouse"><PlayHouse /></Route>
-                <Route exact path="/experience"><Experience /></Route>
-            </Switch>
-        </div>
-        <Footer />
-      </HashRouter>
-    );
-  }
+function App() {
+  return (
+    <HashRouter basename={process.env.PUBLIC_URL}>
+      <Navbar />
+      <main id="main">
+          <Routes>
+            <Route exact path="/" element={<Homepage/>}/>
+            <Route exact path="/projects" element={<Projects/>}/>
+                <Route exact path="/projects/cssquared" element={<CSsquared/>}/>
+                <Route exact path="/projects/rshinyapps" element={<RShinyApps/>}/>
+                <Route exact path="/projects/votrcrowd" element={<VotrCrowd/>}/>
+                <Route exact path="/projects/polysymph" element={<PolySymph/>}/>
+                <Route exact path="/projects/datamatch" element={<DataMatch/>}/>
+                <Route exact path="/projects/playhouse" element={<PlayHouse/>}/>
+              <Route exact path="/experience" element={<Experience/>}/>
+          </Routes>
+      </main>
+      <Footer />
+    </HashRouter>
+  );
 }
 
 export default App;

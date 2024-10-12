@@ -7,14 +7,13 @@ import YouTube from "../assets/youtube.png";
 
 function Footer() {
     return (
-        <div className="footer">
-            <div className="footerText">
+        <footer>
+            <div className="footer-text">
                 <p>Designed by Lucas Pao.</p>
-                <p id="disclaimer">(no external design/CSS libraries used!)</p>
-                <br/>
+                <p id="disclaimer">(no external CSS/design libraries used!)</p>
                 <p>Check out more projects below!</p>
             </div>
-            <div className="footerLinks">
+            <div className="footer-links">
                 <a
                     className="github"
                     href="https://github.com/lucaspingpao"
@@ -33,7 +32,7 @@ function Footer() {
                     <img className="youtube-pic" alt="YouTube logo" src={YouTube}/>
                 </a>
             </div>
-        </div>
+        </footer>
     );
 }
 

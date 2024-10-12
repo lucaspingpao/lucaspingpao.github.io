@@ -52,7 +52,7 @@ function Experience() {
                     <div>
                         <h4 className="school">Berklee College of Music</h4>
                         <h5>M.A. Candidate in Creative Media and Technology</h5>
-                        <h5>Sep 2023 - Jul 2024</h5>
+                        <h5>Sep 2023 - Aug 2024</h5>
                         <p><i>Integrated 5-year dual degree program between Harvard and Berklee.</i></p>
                     </div>
                 </div>
@@ -98,11 +98,13 @@ function Experience() {
                         <h4><b>Programming:</b></h4>
                         <h4><b>Frontend / Design:</b></h4>
                         <h4><b>Backend / Database:</b></h4>
+                        <h4><b>Other Tools</b></h4>
                     </div>
                     <div id="skill">
-                        <h4>Python, JavaScript, Swift, C/C++, Java, OCaml, R</h4>
-                        <h4>React, React Native, Redux, HTML/CSS (Bootstrap, Material UI), Figma, Canva</h4>
-                        <h4>Node.js, Express, Flask, SQL (PostgreSQL, SQLite), NoSQL (Firebase)</h4>
+                        <h4>JavaScript, TypeScript, Python, Java, Swift, SQL</h4>
+                        <h4>React, React Native, HTML, CSS, Redux, Jest, Cypress, ESLint, Figma</h4>
+                        <h4>Node.js, Express, Flask, PostgreSQL, Google Cloud Platform (Firebase, BigQuery)</h4>
+                        <h4>Git, Terminal, VSCode, XCode, Eclipse, Expo, Heroku, Render, Agile, Scrum</h4>
                     </div>
                 </div>
             </div>

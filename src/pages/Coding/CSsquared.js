@@ -14,7 +14,7 @@ function CSsquared() {
                 <div>
                     <div>
                         <h3>Tech Stack:</h3>
-                        <p class="techSkills">Python, Flask, HTML, CSS (Bootstrap), SQL (SQLite)</p>
+                        <p className="techSkills">Python, Flask, HTML, CSS (Bootstrap), SQL (SQLite)</p>
                     </div>
                     <div>
                         <h3>Harvard Course Recommendation System</h3>
@@ -29,10 +29,10 @@ function CSsquared() {
                     <iframe
                         src="https://www.youtube.com/embed/F4xodbOdgjE?si=R70XXXeAqN-UR7nA&amp;start=23"
                         title="YouTube video player for CSCS demo"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
                     />
                 </div>
             </div>
