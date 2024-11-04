@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "442b926c526f608f7dfe112bc218e451",
+    "revision": "0e02f9d3c1f8fb6a3b7c754f7e2d1b6d",
     "url": "/index.html"
   },
   {
-    "revision": "5534280b6a0bb01b40aa",
-    "url": "/static/css/main.9d95da23.chunk.css"
+    "revision": "17b5f516a03aedaf51af",
+    "url": "/static/css/main.a43a5c8c.chunk.css"
   },
   {
-    "revision": "cd4f77dd2c47f1db46c6",
-    "url": "/static/js/2.af76f6d1.chunk.js"
+    "revision": "d3f34fc8e23b86396d43",
+    "url": "/static/js/2.375860a7.chunk.js"
   },
   {
     "revision": "6767f2fc1ee148389c42816cc09fd927",
-    "url": "/static/js/2.af76f6d1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.375860a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5534280b6a0bb01b40aa",
-    "url": "/static/js/main.ede2cb14.chunk.js"
+    "revision": "17b5f516a03aedaf51af",
+    "url": "/static/js/main.8a1fb012.chunk.js"
   },
   {
     "revision": "6047eacaf65d0cb0f7f9",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/MusicBackground.6fe652a9.JPG"
   },
   {
+    "revision": "98caf8a47a43f958d1bf17a262d82788",
+    "url": "/static/media/PaosPuzzlesScreen.98caf8a4.png"
+  },
+  {
     "revision": "8ff70957f4d86fc9c6062b5c7beb8ea8",
     "url": "/static/media/PlayHouse.8ff70957.png"
   },
@@ -52,12 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/PlayHouseScreen.947fe9f2.png"
   },
   {
+    "revision": "54a41ede920f2a9a8d403bcd908bdd4c",
+    "url": "/static/media/Puzzles.54a41ede.png"
+  },
+  {
     "revision": "f2d809ffee8262e1acc9eb476f28bf8a",
     "url": "/static/media/TapJams.f2d809ff.png"
   },
   {
-    "revision": "2be0209d9156856ed8bc85fce362919e",
-    "url": "/static/media/VotrCrowd.2be0209d.png"
+    "revision": "f8256b09a3fe3bd93b5d3522a1b38c6d",
+    "url": "/static/media/VotrCrwd.f8256b09.png"
   },
   {
     "revision": "287a8a8aeb472bf466e3436581f000f5",
