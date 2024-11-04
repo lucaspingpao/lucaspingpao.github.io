@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import '../../styles/Project.css';
 
+import TechStack from '../../components/TechStack';
+// import Summary from '../../components/Summary';
+
 function RShinyApps() {
     
     useEffect(() => {
@@ -8,15 +11,12 @@ function RShinyApps() {
     }, []);
 
     return (
-        <div className="projectContainer">
+        <div className="project-container">
             <h2>Math Visualization Apps</h2>
 
             <div className="row">
                 <div>
-                    <div>
-                        <h3>Tech Stack:</h3>
-                        <p class="techSkills">R, RShiny, HTML, CSS</p>
-                    </div>
+                    <TechStack tech="R, RShiny, HTML, CSS"/>
                     <div>
                         <h3>Harvard Math Department</h3>
                         <p>
@@ -40,28 +40,6 @@ function RShinyApps() {
                         frameBorder="0"
                         title="Sequences RShiny App"
                         style={{ height: "50vw" }}
-                    />
-                </div>
-            </div>
-
-            <div className="row">
-                <div>
-                    <h3>Wave Learning Festival</h3>
-                    <p>
-                        I had so much fun exploring the graphical capabilities and data analysis tools in R/RShiny that I volunteered to take on several teaching roles to share my skills in R with other students.
-                        I became a teaching assistant for S-152: Discrete Mathematics and volunteered as a teacher for Wave Learning Festival,
-                        in which I co-taught a 5-day seminar called "Data Analysis and Web Apps in RShiny", covering programming, statistics, data analysis/visualization tools in R, and web application development in RShiny for 30+ high-school students!
-                        Here below are some lecture reocrdings of my class, shared through my YouTube channel,&nbsp;
-                        <a href="https://www.youtube.com/channel/UCMta0o0GMm6zw6IFPf_Epgw">PaoCodingTutorials</a>.
-                    </p>
-                </div>
-                <div>
-                    <iframe
-                        src="https://www.youtube.com/embed/videoseries?list=PLjT_SXeguj8BnrPFmkfAJnDY_9h9xCpWO"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScree
-                        title="RShiny tutorial"
                     />
                 </div>
             </div>

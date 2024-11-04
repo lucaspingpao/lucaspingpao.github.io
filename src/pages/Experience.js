@@ -98,13 +98,13 @@ function Experience() {
                         <h4><b>Programming:</b></h4>
                         <h4><b>Frontend / Design:</b></h4>
                         <h4><b>Backend / Database:</b></h4>
-                        <h4><b>Other Tools</b></h4>
+                        <h4><b>Development Tools</b></h4>
                     </div>
                     <div id="skill">
-                        <h4>JavaScript, TypeScript, Python, Java, Swift, SQL</h4>
-                        <h4>React, React Native, HTML, CSS, Redux, Jest, Cypress, ESLint, Figma</h4>
-                        <h4>Node.js, Express, Flask, PostgreSQL, Google Cloud Platform (Firebase, BigQuery)</h4>
-                        <h4>Git, Terminal, VSCode, XCode, Eclipse, Expo, Heroku, Render, Agile, Scrum</h4>
+                        <h4>JavaScript / TypeScript (Proficient), Python (Proficient), Java (Intermediate), Swift (Intermediate)</h4>
+                        <h4>React, React Native, HTML, CSS (Tailwind, Bootstrap), Next.js, Vite, Redux, Jest, Cypress, Figma</h4>
+                        <h4>Node.js, Express, Flask, PostgreSQL, SQLite, Google Cloud Platform (Firebase, BigQuery)</h4>
+                        <h4>Git, Terminal, VSCode, Expo, Vercel, Render, Heroku, Agile methodologies</h4>
                     </div>
                 </div>
             </div>

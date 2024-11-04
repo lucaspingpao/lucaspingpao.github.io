@@ -12,12 +12,12 @@ function Projects() {
     }
 
     const cardInfos = [
-        { link: "/cssquared", logoLink: 'computer.png', title: "CSCS: Computer Science Course Selector", alt: "Computer logo"},
-        { link: "/rshinyapps", logoLink: 'math.jpg', title: "Interactive Abstract Math Visualization Apps", alt: "Math symbols"},
-        { link: "/votrcrowd", logoLink: 'VotrCrowd.jpg', title: "VotrCrowd", alt: "Vote logo"},
-        { link: "/polysymph", logoLink: 'synth.png', title: "PolySymph Synthesizer & TapJams", alt: "Mini keyboard"},
-        { link: "/datamatch", logoLink: 'datamatch.png', title: "Harvard Datamatch", alt: "Heart-shaped Datamatch logo"},
+        { link: "/paospuzzles", logoLink: 'Puzzles.png', title: "Pao's Puzzles", alt: "Puzzles"},
+        { link: "/tapjams", logoLink: 'synth.png', title: "TapJams", alt: "Mini keyboard"},
         { link: "/playhouse", logoLink: 'PlayHouse.png', title: "PlayHouse", alt: "PlayHouse logo"},
+        { link: "/votrcrwd", logoLink: 'VotrCrwd.jpg', title: "VotrCrwd", alt: "Vote logo"},
+        { link: "/rshinyapps", logoLink: 'math.jpg', title: "Abstract Math Visualization Apps", alt: "Math symbols"},
+        { link: "/cssquared", logoLink: 'computer.png', title: "CSCS: Computer Science Course Selector", alt: "Computer logo"},
     ];
 
     return (

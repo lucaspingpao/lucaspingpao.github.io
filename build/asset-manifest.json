@@ -1,31 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.1950e3dc.chunk.css",
-    "main.js": "/static/js/main.aea53312.chunk.js",
-    "main.js.map": "/static/js/main.aea53312.chunk.js.map",
+    "main.css": "/static/css/main.9d95da23.chunk.css",
+    "main.js": "/static/js/main.ede2cb14.chunk.js",
+    "main.js.map": "/static/js/main.ede2cb14.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2a6546c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.2a6546c3.js.map",
-    "static/js/2.73b9239d.chunk.js": "/static/js/2.73b9239d.chunk.js",
-    "static/js/2.73b9239d.chunk.js.map": "/static/js/2.73b9239d.chunk.js.map",
+    "static/js/2.af76f6d1.chunk.js": "/static/js/2.af76f6d1.chunk.js",
+    "static/js/2.af76f6d1.chunk.js.map": "/static/js/2.af76f6d1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f1f096c13e190d3a68861fe051c32340.js": "/precache-manifest.f1f096c13e190d3a68861fe051c32340.js",
+    "precache-manifest.c2f86566fa29725b168cd84552501d9e.js": "/precache-manifest.c2f86566fa29725b168cd84552501d9e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1950e3dc.chunk.css.map": "/static/css/main.1950e3dc.chunk.css.map",
-    "static/js/2.73b9239d.chunk.js.LICENSE.txt": "/static/js/2.73b9239d.chunk.js.LICENSE.txt",
+    "static/css/main.9d95da23.chunk.css.map": "/static/css/main.9d95da23.chunk.css.map",
+    "static/js/2.af76f6d1.chunk.js.LICENSE.txt": "/static/js/2.af76f6d1.chunk.js.LICENSE.txt",
     "static/media/GitHubLogo.png": "/static/media/GitHubLogo.cefc2023.png",
+    "static/media/Github.jpg": "/static/media/Github.535314b7.jpg",
     "static/media/Lucas Pao Berklee.jpg": "/static/media/Lucas Pao Berklee.c993d261.jpg",
     "static/media/Lucas_Pao.JPG": "/static/media/Lucas_Pao.7fdac4c2.JPG",
+    "static/media/MusicBackground.JPG": "/static/media/MusicBackground.6fe652a9.JPG",
     "static/media/PlayHouse.png": "/static/media/PlayHouse.8ff70957.png",
     "static/media/PlayHouseScreen.png": "/static/media/PlayHouseScreen.947fe9f2.png",
     "static/media/TapJams.png": "/static/media/TapJams.f2d809ff.png",
+    "static/media/VotrCrowd.png": "/static/media/VotrCrowd.2be0209d.png",
+    "static/media/ivyhacks.png": "/static/media/ivyhacks.287a8a8a.png",
     "static/media/math.jpg": "/static/media/math.b135deb0.jpg",
     "static/media/schedule.png": "/static/media/schedule.fbe86dfc.png",
     "static/media/youtube.png": "/static/media/youtube.07b8560a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2a6546c3.js",
-    "static/js/2.73b9239d.chunk.js",
-    "static/css/main.1950e3dc.chunk.css",
-    "static/js/main.aea53312.chunk.js"
+    "static/js/2.af76f6d1.chunk.js",
+    "static/css/main.9d95da23.chunk.css",
+    "static/js/main.ede2cb14.chunk.js"
   ]
 }

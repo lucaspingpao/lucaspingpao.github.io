@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import '../../styles/Project.css';
 
+import TechStack from '../../components/TechStack';
+import Summary from '../../components/Summary';
+
 function CSsquared() {
     
     useEffect(() => {
@@ -8,22 +11,17 @@ function CSsquared() {
     }, []);
 
     return (
-        <div className="projectContainer">
+        <div className="project-container">
             <h2>CSCS: Computer Science Course Selector</h2>
             <div className="row">
                 <div>
-                    <div>
-                        <h3>Tech Stack:</h3>
-                        <p className="techSkills">Python, Flask, HTML, CSS (Bootstrap), SQL (SQLite)</p>
-                    </div>
-                    <div>
-                        <h3>Harvard Course Recommendation System</h3>
-                        <p>
-                            In this project, we developed webpages and algorithms to recommend a custom course selection plan for prospective CS concentrators to help them navigate through the Harvard CS course catalog more easily.
-                            This project was developed using HTML, CSS (Bootstrap), Python (Flask), and SQL databases.
-                            Here is a video explaining the project in more detail!
-                        </p>
-                    </div>
+                    <TechStack tech="Python, Flask, HTML, CSS (Bootstrap), SQL (SQLite)" />
+                    <Summary
+                        subtitle="Harvard Course Recommendation System"
+                        summary="In this project, we developed webpages and algorithms to recommend a custom course selection plan for prospective CS concentrators to help them navigate through the Harvard CS course catalog more easily.
+                                This project was developed using HTML, CSS (Bootstrap), Python (Flask), and SQL databases.
+                                Here is a video explaining the project in more detail!"
+                    />
                 </div>
                 <div>
                     <iframe

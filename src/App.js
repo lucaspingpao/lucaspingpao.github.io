@@ -6,37 +6,45 @@ import Footer from './components/Footer';
 
 import Homepage from './pages/Homepage';
 import Projects from './pages/Projects';
+import Teaching from './pages/Teaching';
 import Experience from './pages/Experience';
 
-import CSsquared from './pages/Coding/CSsquared';
-import RShinyApps from './pages/Coding/RShinyApps';
-import VotrCrowd from './pages/Coding/VotrCrowd';
-import PolySymph from './pages/Coding/PolySymph';
-import DataMatch from './pages/Coding/DataMatch';
+import PaosPuzzles from './pages/Coding/PaosPuzzles';
+import TapJams from './pages/Coding/TapJams';
 import PlayHouse from './pages/Coding/PlayHouse';
+import VotrCrwd from './pages/Coding/VotrCrwd';
+import RShinyApps from './pages/Coding/RShinyApps';
+import CSsquared from './pages/Coding/CSsquared';
+
+import PolySymph from './pages/Teaching/PolySymph';
+import WaveLearning from './pages/Teaching/WaveLearning';
 
 import './styles/App.css';
 
+
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
-      <Navbar />
-      <main id="main">
-          <Routes>
-            <Route exact path="/" element={<Homepage/>}/>
-            <Route exact path="/projects" element={<Projects/>}/>
-                <Route exact path="/projects/cssquared" element={<CSsquared/>}/>
-                <Route exact path="/projects/rshinyapps" element={<RShinyApps/>}/>
-                <Route exact path="/projects/votrcrowd" element={<VotrCrowd/>}/>
-                <Route exact path="/projects/polysymph" element={<PolySymph/>}/>
-                <Route exact path="/projects/datamatch" element={<DataMatch/>}/>
-                <Route exact path="/projects/playhouse" element={<PlayHouse/>}/>
-              <Route exact path="/experience" element={<Experience/>}/>
-          </Routes>
-      </main>
-      <Footer />
-    </HashRouter>
-  );
+		<HashRouter basename={process.env.PUBLIC_URL}>
+			<Navbar />
+			<main id="main">
+				<Routes>
+					<Route exact path="/" element={<Homepage/>} />
+					<Route exact path="/projects" element={<Projects/>} />
+						<Route exact path="/projects/paospuzzles" element={<PaosPuzzles/>} />
+						<Route exact path="/projects/tapjams" element={<TapJams/>} />
+						<Route exact path="/projects/playhouse" element={<PlayHouse/>} />
+						<Route exact path="/projects/votrcrwd" element={<VotrCrwd/>} />
+						<Route exact path="/projects/rshinyapps" element={<RShinyApps/>} />
+						<Route exact path="/projects/cssquared" element={<CSsquared/>} />
+					<Route exact path="/teaching" element={<Teaching/>} />
+						<Route exact path="/teaching/polysymph" element={<PolySymph/>} />
+						<Route exact path="/teaching/wavelearning" element={<WaveLearning/>} />
+					<Route exact path="/experience" element={<Experience/>} />
+				</Routes>
+			</main>
+			<Footer />
+		</HashRouter>
+	);
 }
 
 export default App;

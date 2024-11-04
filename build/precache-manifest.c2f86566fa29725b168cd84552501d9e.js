@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73aad05917bcfa5663ecad3a4dbd7917",
+    "revision": "442b926c526f608f7dfe112bc218e451",
     "url": "/index.html"
   },
   {
-    "revision": "78f0f5d7e659fdae34c9",
-    "url": "/static/css/main.1950e3dc.chunk.css"
+    "revision": "5534280b6a0bb01b40aa",
+    "url": "/static/css/main.9d95da23.chunk.css"
   },
   {
-    "revision": "be3f0e3160a6c8801a29",
-    "url": "/static/js/2.73b9239d.chunk.js"
+    "revision": "cd4f77dd2c47f1db46c6",
+    "url": "/static/js/2.af76f6d1.chunk.js"
   },
   {
-    "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/static/js/2.73b9239d.chunk.js.LICENSE.txt"
+    "revision": "6767f2fc1ee148389c42816cc09fd927",
+    "url": "/static/js/2.af76f6d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78f0f5d7e659fdae34c9",
-    "url": "/static/js/main.aea53312.chunk.js"
+    "revision": "5534280b6a0bb01b40aa",
+    "url": "/static/js/main.ede2cb14.chunk.js"
   },
   {
     "revision": "6047eacaf65d0cb0f7f9",
@@ -28,12 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/GitHubLogo.cefc2023.png"
   },
   {
+    "revision": "535314b7c7fdfd01b69747f5606f8398",
+    "url": "/static/media/Github.535314b7.jpg"
+  },
+  {
     "revision": "c993d261b5a911f2ba4310ee4373b956",
     "url": "/static/media/Lucas Pao Berklee.c993d261.jpg"
   },
   {
     "revision": "7fdac4c20bd841fa057adeb5a2ac0be3",
     "url": "/static/media/Lucas_Pao.7fdac4c2.JPG"
+  },
+  {
+    "revision": "6fe652a9cad0165e22596b3c2e5fe3b3",
+    "url": "/static/media/MusicBackground.6fe652a9.JPG"
   },
   {
     "revision": "8ff70957f4d86fc9c6062b5c7beb8ea8",
@@ -46,6 +54,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f2d809ffee8262e1acc9eb476f28bf8a",
     "url": "/static/media/TapJams.f2d809ff.png"
+  },
+  {
+    "revision": "2be0209d9156856ed8bc85fce362919e",
+    "url": "/static/media/VotrCrowd.2be0209d.png"
+  },
+  {
+    "revision": "287a8a8aeb472bf466e3436581f000f5",
+    "url": "/static/media/ivyhacks.287a8a8a.png"
   },
   {
     "revision": "b135deb02cf44ba14d59642f002b34de",
