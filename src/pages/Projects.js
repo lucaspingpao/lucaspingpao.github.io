@@ -13,6 +13,7 @@ function Projects() {
 
     const cardInfos = [
         { link: "/paospuzzles", logoLink: 'Puzzles.png', title: "Pao's Puzzles", alt: "Puzzles"},
+        { link: "/songmatch", logoLink: 'SongMatchLogo.png', title: "SongMatch", alt: "SongMatch logo"},
         { link: "/tapjams", logoLink: 'synth.png', title: "TapJams", alt: "Mini keyboard"},
         { link: "/playhouse", logoLink: 'PlayHouse.png', title: "PlayHouse", alt: "PlayHouse logo"},
         { link: "/votrcrwd", logoLink: 'VotrCrwd.jpg', title: "VotrCrwd", alt: "Vote logo"},

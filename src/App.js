@@ -9,6 +9,7 @@ import Projects from './pages/Projects';
 import Teaching from './pages/Teaching';
 import Experience from './pages/Experience';
 
+import SongMatch from './pages/Coding/SongMatch';
 import PaosPuzzles from './pages/Coding/PaosPuzzles';
 import TapJams from './pages/Coding/TapJams';
 import PlayHouse from './pages/Coding/PlayHouse';
@@ -22,6 +23,7 @@ import WaveLearning from './pages/Teaching/WaveLearning';
 import './styles/App.css';
 
 
+
 function App() {
   return (
 		<HashRouter basename={process.env.PUBLIC_URL}>
@@ -31,6 +33,7 @@ function App() {
 					<Route exact path="/" element={<Homepage/>} />
 					<Route exact path="/projects" element={<Projects/>} />
 						<Route exact path="/projects/paospuzzles" element={<PaosPuzzles/>} />
+						<Route exact path="/projects/songmatch" element={<SongMatch/>} />
 						<Route exact path="/projects/tapjams" element={<TapJams/>} />
 						<Route exact path="/projects/playhouse" element={<PlayHouse/>} />
 						<Route exact path="/projects/votrcrwd" element={<VotrCrwd/>} />

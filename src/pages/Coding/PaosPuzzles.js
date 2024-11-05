@@ -20,13 +20,13 @@ function PaosPuzzles() {
                     <div className="tech-skills">
                         <h3>Classic Puzzle Games Reinvented</h3>
                         <p>
-                            Introducing <a href="https://paos-puzzles.vercel.app" target="_blank" rel="noopener noreferrer">Pao's Puzzles</a>, a web-app collection of popular board game, word, and logic puzzles from different sources.
+                            Introducing <a href="https://paos-puzzles.vercel.app" target="_blank" rel="noopener noreferrer">Pao's Puzzles</a>, a web-app collection of popular board game, word, and logic puzzles from various sources.
                             However, each game has a slight hidden twist compared to the original.
                             For example, the popular game "Wordle" has been renamed to "WordHole", where players can now choose to include an elusive "hole" character in order to form single or multiple words, adding an extra layer of challenge to the game.
                         </p>
                         <p>
-                            This project has involved a lot of standard full-stack feature-prototyping, but it has also presented some interesting algorithmic problems to solve.
-                            For example, generating random game board states required graph theory and BFS traversals for complete initialization.
+                            This project involved a lot of standard full-stack product feature development, but it also presented some interesting algorithmic problems to solve.
+                            For example, generating random game board states required graph theory and BFS traversals for a complete initialization.
                         </p>
                     </div>
                 </div>

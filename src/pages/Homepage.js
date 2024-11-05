@@ -7,14 +7,13 @@ import '../styles/Homepage.css';
 
 function Homepage() {
     return (
-        <div className="homeContainer">
-            <div className="homeLeftText">
+        <div className="home-container">
+            <div className="home-left-text">
                 <h1>Lucas Pao</h1>
-                <h2>Software Engineer.</h2>
-                <h2>Full-Stack Developer.</h2>
-                <h2>Mobile App Developer.</h2>
+                <h2>Software Engineer</h2>
+                <h2 className="subtext">Full-Stack | Frontend | Mobile</h2>
             </div>
-            <div className="homeRightImage">
+            <div className="home-right-image">
                 <img src={LucasFace} alt="Portrait of Lucas' face."></img>
             </div>
         </div>

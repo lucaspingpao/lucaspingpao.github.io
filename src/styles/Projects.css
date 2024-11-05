@@ -4,9 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4vw;
-}
-
-@media (max-width: 784px) {
-    .cards { gap: 5vw; }
+    gap: 2.5vw;
+    padding: 3vh 0vh 8vh 0vh;
 }
