@@ -15,32 +15,37 @@ My journey into software development started with a theoretical foundation into 
 
 ## Projects
 
-### [Datamatch](https://datamatch.me)
-**Tech Stack:** JavaScript, React, HTML, CSS, Redux, Firebase
+### [Pao's Puzzles](https://paos-puzzles.vercel.app/)
+**Tech Stack:** *React, TypeScript, HTML, CSS (Tailwind), Vite, Node.js, Express.js, SQL (PostgreSQL), Vercel*
 
 **Description:** Social matchmaking service connecting 40,000+ students from over 30+ colleges every year on Valentine's Day.
 
-### [TapJams](https://lucaspingpao.github.io/#/projects/polysymph)
+### [SongMatch Karaoke](https://songmatch-karaoke.vercel.app/)
+**Tech Stack:** *Next.js, TypeScript, HTML, CSS (Tailwind), D3.js, Python, FastAPI, Vercel*
 
-**Tech Stack:** JavaScript, React, HTML, CSS (Material UI), Node.js, Express, SQL (PostgreSQL)
+**Description:** Social matchmaking service connecting 40,000+ students from over 30+ colleges every year on Valentine's Day.
+
+### [TapJams](https://lucaspaocoding.com/#/projects/tapjams)
+
+**Tech Stack:** *React, JavaScript, HTML, CSS (Material UI), Node.js, Express.js, SQL (PostgreSQL), Heroku*
 
 **Description:** Social music composition app featuring live virtual instruments, interactive compositional tools, and a post-sharing platform.
 
-### [Playhouse Show Companion](https://getplayhouse.weebly.com)
+### [PlayHouse Show Companion](https://getplayhouse.weebly.com)
 
-**Tech Stack:** JavaScript, React Native, HTML, CSS, Firebase
+**Tech Stack:** *React Native, JavaScript, HTML, CSS, Google Firebase*
 
 **Description:** Interactive show companion that transforms virtual live performance from a video screen to an entirely immersive experience.
 
-### [VotrCrowd](https://lucaspingpao.github.io/#/projects/votrcrowd)
+### [VotrCrwd](https://devpost.com/software/votrcrwd-edb5v0)
 
-**Tech Stack:** JavaScript, React, HTML, CSS (Material UI), Google APIs
+**Tech Stack:** *React, JavaScript, HTML, CSS (Material UI), Google APIs*
 
 **Description:** All in one voting information system that provides polling station locations and capacities using real-time user location data, helping voters track social distancing measures of their nearest polling station.
 
-### [Math Visualization Apps](https://lucaspingpao.github.io/#/projects/rshinyapps)
+### [Math Visualization Apps](https://lucaspaocoding.com/#/projects/rshinyapps)
 
-**Tech Stack:** R, RShiny, HTML, CSS
+**Tech Stack:** *R, RShiny, HTML, CSS*
 
 **Description:**
 1. [Markov Models:](https://lucaspingpao.shinyapps.io/Math23a-Week1-MarkovModels/) Calculates the number of paths between vertices on a finite directed graph with transition matrices.
@@ -49,8 +54,8 @@ My journey into software development started with a theoretical foundation into 
 4. [Sequence Convergence:](https://lucaspingpao.shinyapps.io/Math23-Week5-Sequences/) Illustrates the formal epsilon definition of sequence convergence with animated graphs.
 5. [Finite Topology:](https://lucaspingpao.shinyapps.io/Math23-Week9-FiniteTopology/) Illustrates basic definitions of finite topology applied to directed graphs (interior, closure, boundary)
 
-### [CS<sup>2</sup>: Computer Science Course Selector](https://lucaspingpao.github.io/#/projects/cssquared)
+### [CS<sup>2</sup>: Computer Science Course Selector](https://lucaspaocoding.com/#/projects/cssquared)
 
-**Tech Stack:** Python, Flask, HTML, CSS (Bootstrap), SQL (SQLite)
+**Tech Stack:** *Python, Flask, HTML, CSS (Bootstrap), SQL (SQLite)*
 
 **Description:** Algorithmic course recommendation system for prospective Harvard CS concentrators (majors).
