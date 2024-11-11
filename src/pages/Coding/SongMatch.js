@@ -16,7 +16,7 @@ function SongMatch() {
             <h2>SongMatch</h2>
             <div className="row">
                 <div>
-                    <TechStack tech="React, TypeScript, HTML, CSS (Tailwind), Python, Flask, Render"/>
+                    <TechStack tech="Next.js, TypeScript, HTML, CSS (Tailwind), D3.js, Python, FastAPI, Vercel"/>
                     <div className="tech-skills">
                         <h3>Karaoke Song Recommender</h3>
                         <p>
