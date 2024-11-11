@@ -18,12 +18,12 @@ My journey into software development started with a theoretical foundation into 
 ### [Pao's Puzzles](https://paos-puzzles.vercel.app/)
 **Tech Stack:** *React, TypeScript, HTML, CSS (Tailwind), Vite, Node.js, Express.js, SQL (PostgreSQL), Vercel*
 
-**Description:** Social matchmaking service connecting 40,000+ students from over 30+ colleges every year on Valentine's Day.
+**Description:** Collection of classic board, logic, and puzzle games reinvented with a twist.
 
 ### [SongMatch Karaoke](https://songmatch-karaoke.vercel.app/)
 **Tech Stack:** *Next.js, TypeScript, HTML, CSS (Tailwind), D3.js, Python, FastAPI, Vercel*
 
-**Description:** Social matchmaking service connecting 40,000+ students from over 30+ colleges every year on Valentine's Day.
+**Description:** AI recommender system that predicts the most optimal songs that fit the user's vocal range.
 
 ### [TapJams](https://lucaspaocoding.com/#/projects/tapjams)
 
