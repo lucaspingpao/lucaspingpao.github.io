@@ -22,13 +22,14 @@ function PolySymph() {
                     <h3>Harvard Math Department</h3>
                     <div>
                         <p>
-                            In the fall semester of 2020, I took a class called "How Music Works: Engineering the Acoustical World", in which we applied concepts from mechnical and eletrical engineering to explore and create our own musical systems.
+                            One semester, I took a class called "How Music Works: Engineering the Acoustical World", in which we applied concepts from mechnical and eletrical engineering to explore and create our own musical systems.
                             For my final project in this class, I developed a web app called PolySymph (a wordplay on "Polyphonic Synthesizer" + "Symphony"),
                             a music composition app that allows the user to experiment with the fundamental components of a band in a uniquely displayed format.
-                    
-                            I first synthesized original sounds on the backend in Python by superpositioning sinewave signals according to fixed (and random!) sets of Fourier coefficients.
-                            I then mapped these sounds to the frontend user interface of the app using the micro web framework Flask.
-                            Watch the video below to find out more about how I created the backend synthesizer that supports the audio signals in the app!
+                        </p>
+                        <p>
+                            I synthesized original sounds on the backend in Python by superpositioning sinewave signals according to fixed (and random!) sets of Fourier coefficients
+                            and mapped these sounds to the frontend using Flask.
+                            Additionally, I created a tutorial video explaining the building process of the backend synthesizer and some of the mathematical concepts behind digital sound synthesis.
                         </p>
                     </div>
                 </div>

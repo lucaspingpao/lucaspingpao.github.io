@@ -76,14 +76,14 @@ function Experience() {
                     </div>
                     <div id="position">
                         <h4>Software Engineer Intern</h4>
-                        <h4>Venture Program</h4>
+                        <h4>Full Stack Developer</h4>
                         <h4>Full-Stack Developer</h4>
                         <h4>Software Engineer Intern</h4>
                         <h4>Math Course Assistant</h4>  
                     </div>
                     <div id="date">
                         <h4>Jun 2022 - Aug 2022</h4>
-                        <h4>Jan 2022 - May 2022</h4>
+                        <h4>Jun 2021 - Jan 2022</h4>
                         <h4>Nov 2020 - Feb 2022</h4>
                         <h4>Jun 2021 - Aug 2021</h4>
                         <h4>May 2020 - May 2021</h4>
@@ -98,13 +98,13 @@ function Experience() {
                         <h4><b>Programming:</b></h4>
                         <h4><b>Frontend / Design:</b></h4>
                         <h4><b>Backend / Database:</b></h4>
-                        <h4><b>Development Tools</b></h4>
+                        <h4><b>Cloud / DevOps</b></h4>
                     </div>
                     <div id="skill">
-                        <h4>JavaScript / TypeScript (Proficient), Python (Proficient), Java (Intermediate), Swift (Intermediate)</h4>
-                        <h4>React, React Native, HTML, CSS (Tailwind, Bootstrap), Next.js, Vite, Redux, Jest, Cypress, Figma</h4>
-                        <h4>Node.js, Express, Flask, PostgreSQL, SQLite, Google Cloud Platform (Firebase, BigQuery)</h4>
-                        <h4>Git, Terminal, VSCode, Expo, Vercel, Render, Heroku, Agile methodologies</h4>
+                        <h4>JavaScript / TypeScript (Proficient), Python (Proficient), Java (Intermediate)</h4>
+                        <h4>React, React Native, Next.js, HTML, CSS (Tailwind, Bootstrap), Vite, Redux, Jest, Cypress, Figma</h4>
+                        <h4>Node.js, Express, Flask, FastAPI, Postman, SQL (PostgreSQL, SQLite)</h4>
+                        <h4>Google Cloud Platform (Firebase, BigQuery), Vercel, Render, Heroku, GitHub Actions</h4>
                     </div>
                 </div>
             </div>

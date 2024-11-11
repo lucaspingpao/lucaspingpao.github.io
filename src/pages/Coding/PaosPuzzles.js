@@ -26,7 +26,7 @@ function PaosPuzzles() {
                         </p>
                         <p>
                             This project involved a lot of standard full-stack product feature development, but it also presented some interesting algorithmic problems to solve.
-                            For example, generating random game board states required graph theory and BFS traversals for a complete initialization.
+                            For example, generating random game board states requires graph theory and BFS traversals for a complete initialization.
                         </p>
                     </div>
                 </div>

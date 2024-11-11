@@ -16,7 +16,7 @@ function TapJams() {
             <h2>TapJams</h2>
             <div className="row">
                 <div>
-                    <TechStack tech="React, JavaScript, TypeScript, HTML, CSS (Material UI), Node.js, Express.js, SQL (PostgreSQL)" />
+                    <TechStack tech="React, JavaScript, HTML, CSS (Material UI), Node.js, Express.js, SQL (PostgreSQL), Heroku" />
                     <Summary
                         subtitle="Music Creation x Social Media"
                         summary="This product was initially incubated through Harvard's Innovation Labs through the Spring 2022 Venture Program.

@@ -19,8 +19,7 @@ function CSsquared() {
                     <Summary
                         subtitle="Harvard Course Recommendation System"
                         summary="In this project, we developed webpages and algorithms to recommend a custom course selection plan for prospective CS concentrators to help them navigate through the Harvard CS course catalog more easily.
-                                This project was developed using HTML, CSS (Bootstrap), Python (Flask), and SQL databases.
-                                Here is a video explaining the project in more detail!"
+                                Here is a video explaining the project in more detail."
                     />
                 </div>
                 <div>

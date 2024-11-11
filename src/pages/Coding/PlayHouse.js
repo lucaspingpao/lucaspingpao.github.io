@@ -22,7 +22,9 @@ function PlayHouse() {
                         <p>
                             <a href="https://getplayhouse.weebly.com" target="_blank" rel="noopener noreferrer">PlayHouse</a>
                             &nbsp;is a mobile playbook app designed to redefine virtual performance.
-                            The app was originally designed during the height of the pandemic when live shows were cancelled and playrights needed to find an engaging way to create immersive experiences for audiences through a virtual format.
+                            The app was originally designed during the height of the pandemic when live shows were cancelled and playwrights needed to find an engaging way to create immersive experiences for audiences through a virtual format.
+                        </p>
+                        <p>
                             I mostly worked on frontend development in React Native (JavaScript), rendering screens such as the one below and redesigning the navigation system across the app.
                         </p>
                     </div>

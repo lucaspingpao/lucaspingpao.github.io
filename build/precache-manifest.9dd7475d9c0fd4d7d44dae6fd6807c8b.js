@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e02f9d3c1f8fb6a3b7c754f7e2d1b6d",
+    "revision": "6672c44411c7d114d08f3cf7f4fd3d3d",
     "url": "/index.html"
   },
   {
-    "revision": "17b5f516a03aedaf51af",
-    "url": "/static/css/main.a43a5c8c.chunk.css"
+    "revision": "869e4775c6ec0be3b7bd",
+    "url": "/static/css/main.04840f38.chunk.css"
   },
   {
-    "revision": "d3f34fc8e23b86396d43",
-    "url": "/static/js/2.375860a7.chunk.js"
+    "revision": "e2ed89b560f2092f7c9f",
+    "url": "/static/js/2.09f2e763.chunk.js"
   },
   {
     "revision": "6767f2fc1ee148389c42816cc09fd927",
-    "url": "/static/js/2.375860a7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.09f2e763.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "17b5f516a03aedaf51af",
-    "url": "/static/js/main.8a1fb012.chunk.js"
+    "revision": "869e4775c6ec0be3b7bd",
+    "url": "/static/js/main.0e72093e.chunk.js"
   },
   {
     "revision": "6047eacaf65d0cb0f7f9",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/MusicBackground.6fe652a9.JPG"
   },
   {
-    "revision": "98caf8a47a43f958d1bf17a262d82788",
-    "url": "/static/media/PaosPuzzlesScreen.98caf8a4.png"
+    "revision": "469085e3310b9e2b42daf9191f7fec85",
+    "url": "/static/media/PaosPuzzlesScreen.469085e3.png"
   },
   {
     "revision": "8ff70957f4d86fc9c6062b5c7beb8ea8",
@@ -60,8 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Puzzles.54a41ede.png"
   },
   {
-    "revision": "f2d809ffee8262e1acc9eb476f28bf8a",
-    "url": "/static/media/TapJams.f2d809ff.png"
+    "revision": "355d5bd0f2229ba5c19bb8b5490aa5bd",
+    "url": "/static/media/SongMatchGraph.355d5bd0.jpg"
+  },
+  {
+    "revision": "eb008014ed2b87ee406f76425f66da7a",
+    "url": "/static/media/SongMatchLogo.eb008014.png"
+  },
+  {
+    "revision": "82be389cc957bf82e0488b85acca986b",
+    "url": "/static/media/TapJams.82be389c.png"
   },
   {
     "revision": "f8256b09a3fe3bd93b5d3522a1b38c6d",
