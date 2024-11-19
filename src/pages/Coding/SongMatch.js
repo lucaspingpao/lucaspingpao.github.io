@@ -21,7 +21,7 @@ function SongMatch() {
                         <h3>Karaoke Song Recommender</h3>
                         <p>
                             <a href="https://songmatch-karaoke.vercel.app" target="_blank" rel="noopener noreferrer">SongMatch</a> is an all-in-one AI platform that predicts optimal songs for music-lovers, singers, and karaoke-goers to sing their heart out to.
-                            I leveraged API models from Meta and Spotify to separate and process audio data to compare against user-inputted voice data collected through interfaces utilizing the web MediaRecorder API.
+                            I leveraged AI models from Meta and Spotify to separate and process audio data to compare against user-inputted voice data collected through interfaces utilizing the web MediaRecorder API.
                         </p>
                     </div>
                 </div>
