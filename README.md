@@ -20,15 +20,21 @@ My journey into software development started with a theoretical foundation into 
 
 **Description:** Dynamic mental math maze searching game designed to help students improve arithmetic fluency.
 
+**Organization:** AWS Game Builder Challenge Hackathon
+
 ### [ChessChase](https://devpost.com/software/chesschase)
 **Tech Stack:** *React, TypeScript, CSS (Tailwind), Devvit, Vite, Redis*
 
 **Description:** Auto-daily chess puzzle game built for Reddit's Developer platform.
 
+**Organization:** Reddit Games and Puzzles Hackathon
+
 ### [Selfplanr](https://www.selfplanr.com/)
 **Tech Stack:** *Next.js, TypeScript, CSS (Tailwind), MongoDB, Google Gemini, LangChain*
 
 **Description:** College counseling task management system powered by agentic AI.
+
+**Organization:** Google for Startups program
 
 ### [Pao's Puzzles](https://paos-puzzles.vercel.app/)
 **Tech Stack:** *React, TypeScript, HTML, CSS (Tailwind), Vite, Node.js, Express.js, SQL (PostgreSQL), Vercel*
@@ -46,11 +52,15 @@ My journey into software development started with a theoretical foundation into 
 
 **Description:** Social music composition app featuring live virtual instruments, interactive compositional tools, and a post-sharing platform.
 
+**Organization:** Harvard Innovation Labs (Venture Program)
+
 ### [PlayHouse Show Companion](https://getplayhouse.weebly.com)
 
 **Tech Stack:** *React Native, JavaScript, HTML, CSS, Google Firebase*
 
 **Description:** Interactive show companion that transforms virtual live performance from a video screen to an entirely immersive experience.
+
+**Organization:** Harvard Innovation Labs (Venture Program)
 
 ### [VotrCrwd](https://devpost.com/software/votrcrwd-edb5v0)
 
@@ -58,9 +68,13 @@ My journey into software development started with a theoretical foundation into 
 
 **Description:** All in one voting information system that provides polling station locations and capacities using real-time user location data, helping voters track social distancing measures of their nearest polling station.
 
+**Organization:** IvyHacks 2020: Building Bridges, Breaking Barriers
+
 ### [Math Visualization Apps](https://lucaspaocoding.com/#/projects/rshinyapps)
 
 **Tech Stack:** *R, RShiny, HTML, CSS*
+
+**Organization:** Harvard Summer School
 
 **Description:**
 1. [Markov Models:](https://lucaspingpao.shinyapps.io/Math23a-Week1-MarkovModels/) Calculates the number of paths between vertices on a finite directed graph with transition matrices.
