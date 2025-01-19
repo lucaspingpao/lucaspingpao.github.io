@@ -15,6 +15,21 @@ My journey into software development started with a theoretical foundation into 
 
 ## Projects
 
+### [PathMath](https://devpost.com/software/pathmath)
+**Tech Stack:** *Next.js, TypeScript, Python, MySQL, AWS (Amplify, Lambda, API Gateway, RDS, Cognito, S3, IAM, Q)*
+
+**Description:** Dynamic mental math maze searching game designed to help students improve arithmetic fluency.
+
+### [ChessChase](https://devpost.com/software/chesschase)
+**Tech Stack:** *React, TypeScript, CSS (Tailwind), Devvit, Vite, Redis*
+
+**Description:** Auto-daily chess puzzle game built for Reddit's Developer platform.
+
+### [Selfplanr](https://www.selfplanr.com/)
+**Tech Stack:** *Next.js, TypeScript, CSS (Tailwind), MongoDB, Google Gemini, LangChain*
+
+**Description:** College counseling task management system powered by agentic AI.
+
 ### [Pao's Puzzles](https://paos-puzzles.vercel.app/)
 **Tech Stack:** *React, TypeScript, HTML, CSS (Tailwind), Vite, Node.js, Express.js, SQL (PostgreSQL), Vercel*
 
