@@ -12,6 +12,9 @@ function Projects() {
     }
 
     const cardInfos = [
+        { link: "/pathmath", logoLink: 'PathMath.png', title: "PathMath", alt: "Path Math"},
+        { link: "/selfplanr", logoLink: 'Selfplanr.jpg', title: "Selfplanr", alt: "Selfplanr"},
+        { link: "/chesschase", logoLink: 'ChessChase.png', title: "ChessChase", alt: "ChessChase"},
         { link: "/paospuzzles", logoLink: 'Puzzles.png', title: "Pao's Puzzles", alt: "Puzzles"},
         { link: "/songmatch", logoLink: 'SongMatchLogo.png', title: "SongMatch", alt: "SongMatch logo"},
         { link: "/tapjams", logoLink: 'synth.png', title: "TapJams", alt: "Mini keyboard"},

@@ -22,6 +22,16 @@ function Experience() {
                         </p>
                         <ul>
                             <li>
+                                <a href="https://apstudents.collegeboard.org/courses/ap-computer-science-a/" target="_blank" rel="noopener noreferrer">
+                                    AP Computer Science A
+                                </a> (Java)
+                            </li>
+                            <li>
+                                <a href="https://cs50.harvard.edu/x/2025/" target="_blank" rel="noopener noreferrer">
+                                    CS 50: Introduction to Computer Science
+                                </a> (C, Python, SQL)
+                            </li>
+                            <li>
                                 <a href="https://cs51.io/" target="_blank" rel="noopener noreferrer">
                                     CS 51: Abstraction and Design for Computation
                                 </a> (OCaml)
@@ -76,17 +86,17 @@ function Experience() {
                     </div>
                     <div id="position">
                         <h4>Software Engineer Intern</h4>
-                        <h4>Full Stack Developer</h4>
+                        <h4>Full-Stack Developer</h4>
                         <h4>Full-Stack Developer</h4>
                         <h4>Software Engineer Intern</h4>
-                        <h4>Math Course Assistant</h4>  
+                        <h4>Math Curriculum Developer</h4>  
                     </div>
                     <div id="date">
                         <h4>Jun 2022 - Aug 2022</h4>
                         <h4>Jun 2021 - Jan 2022</h4>
                         <h4>Nov 2020 - Feb 2022</h4>
                         <h4>Jun 2021 - Aug 2021</h4>
-                        <h4>May 2020 - May 2021</h4>
+                        <h4>May 2020 - Aug 2020</h4>
                     </div>
                 </div>
             </div>
@@ -101,10 +111,10 @@ function Experience() {
                         <h4><b>Cloud / DevOps</b></h4>
                     </div>
                     <div id="skill">
-                        <h4>JavaScript / TypeScript (Proficient), Python (Proficient), Java (Intermediate)</h4>
-                        <h4>React, React Native, Next.js, HTML, CSS (Tailwind, Bootstrap), Vite, Redux, Jest, Cypress, Figma</h4>
-                        <h4>Node.js, Express, Flask, FastAPI, Postman, SQL (PostgreSQL, SQLite)</h4>
-                        <h4>Google Cloud Platform (Firebase, BigQuery), Vercel, Render, Heroku, GitHub Actions</h4>
+                        <h4>JavaScript/TypeScript (Proficient), Python (Proficient), Java (Intermediate), Swift (Intermediate)</h4>
+                        <h4>React, Next.js, React Native, CSS (Tailwind, Bootstrap, Material), HTML, Vite, Redux, Jest, Cypress, Figma</h4>
+                        <h4>Node.js, Express, Flask, FastAPI, Postman, SQL (PostgreSQL, MySQL), NoSQL (MongoDB, Redis) </h4>
+                        <h4>AWS (Lambda, RDS, S3, Cognito, Amplify), GCP (Firebase, BigQuery, Gemini), Vercel, Heroku, Git (GitHub)</h4>
                     </div>
                 </div>
             </div>

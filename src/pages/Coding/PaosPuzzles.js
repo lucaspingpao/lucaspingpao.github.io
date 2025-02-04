@@ -16,7 +16,7 @@ function PaosPuzzles() {
             <h2>Pao's Puzzles</h2>
             <div className="row">
                 <div>
-                    <TechStack tech="React, TypeScript, HTML, CSS (Tailwind), Vite, Node.js, Express.js, SQL (PostgreSQL), Vercel"/>
+                    <TechStack tech="React, TypeScript, HTML, CSS (Tailwind), Vite, Node.js, Express.js, SQL (PostgreSQL), Vercel, Vitest, Cypress"/>
                     <div className="tech-skills">
                         <h3>Classic Puzzle Games Reinvented</h3>
                         <p>

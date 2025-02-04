@@ -9,6 +9,9 @@ import Projects from './pages/Projects';
 import Teaching from './pages/Teaching';
 import Experience from './pages/Experience';
 
+import PathMath from './pages/Coding/PathMath';
+import Selfplanr from './pages/Coding/Selfplanr';
+import ChessChase from './pages/Coding/ChessChase';
 import SongMatch from './pages/Coding/SongMatch';
 import PaosPuzzles from './pages/Coding/PaosPuzzles';
 import TapJams from './pages/Coding/TapJams';
@@ -32,6 +35,9 @@ function App() {
 				<Routes>
 					<Route exact path="/" element={<Homepage/>} />
 					<Route exact path="/projects" element={<Projects/>} />
+						<Route exact path="/projects/pathmath" element={<PathMath/>} />
+						<Route exact path="/projects/selfplanr" element={<Selfplanr/>} />
+						<Route exact path="/projects/chesschase" element={<ChessChase/>} />
 						<Route exact path="/projects/paospuzzles" element={<PaosPuzzles/>} />
 						<Route exact path="/projects/songmatch" element={<SongMatch/>} />
 						<Route exact path="/projects/tapjams" element={<TapJams/>} />

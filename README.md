@@ -6,10 +6,14 @@ The first project I would like to highlight is my [Personal Portfolio Website](h
 
 ## Education
 
-My journey into software development started with a theoretical foundation into Computer Science. Here is a list of some Harvard courses I took that are more related to software engineering:
+My journey into software development started with a theoretical foundation into Computer Science. Here is a list of CS courses I have taken:
+
+* [AP Computer Science A](https://apstudents.collegeboard.org/courses/ap-computer-science-a) (Java)
+* [COMPSCI 50: Introduction to Computer Science](https://cs50.harvard.edu/x/2025/) (C, Python, SQL)
 * [COMPSCI 51: Abstraction and Design for Computation](https://cs51.io/) (OCaml)
 * [COMPSCI 61: Systems Programming and Machine Organization](https://cs61.seas.harvard.edu/site/) (C)
 * [COMPSCI 79: Design of Useful and Usable Interactive Systems](https://glassmanlab.seas.harvard.edu/cs179.html) (Figma)
+* [APMTH 120: Applied Linear Algebra & Big Data](https://web-static-aws.seas.harvard.edu/climate/eli/Courses/APM120/2021spring/detailed-syllabus-apm120.pdf) (Python)
 * [COMPSCI 124: Data Structures and Algorithms](https://groups.seas.harvard.edu/courses/cs124/cs124.html) (C++, Python)
 * [COMPSCI 181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/) (Python)
 
